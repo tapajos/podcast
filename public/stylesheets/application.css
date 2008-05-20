@@ -22,6 +22,15 @@ h1, h2, h3 {
   padding-left: 5px;
  }
 
+label {
+	display:				block;
+	color:					#736196;
+	letter-spacing:			.05em;
+	margin-right:			.5em;
+	clear:					left;
+}
+
+
 h1#masthead {
   background: url(/images/rails-podcast-masthead-brasil.png) no-repeat;
   width: 780px;
@@ -30,20 +39,15 @@ h1#masthead {
   cursor: pointer; cursor: hand;
 }
 
-/*ul {
+ul {
   list-style-type:  none;
-  margin-left: 5px;
-  margin-right: 5px;
- }
+}
+
 li {
   margin-bottom: 3px;
   padding-bottom: 3px;
   border-bottom: 1px dotted #999;
- }*/
-
-/*li a {*/
-/*  padding-left: 5px;*/
-/*}*/
+}
 
 p { 
  font-size: 0.9em;
@@ -64,10 +68,6 @@ div.small {
   text-align: center;
  }
 
-/*************
-  Custom Elements
- */
- 
 div#content,
 div#footer {
   margin-bottom: 10px;
@@ -83,5 +83,8 @@ div#footer {
   font-size: 0.8em;
   padding-top: 2em;
   padding-left: 10px;
- }
+}
 
+ul#podcasts {
+  margin-top: 15px;
+}

@@ -1454,3 +1454,589 @@ Rendering template within layouts/application
 Rendering admin/podcasts/new
 Rendered admin/podcasts/_form (0.00514)
 Completed in 0.01856 (53 reqs/sec) | Rendering: 0.00933 (50%) | DB: 0.00279 (15%) | 200 OK [http://localhost/admin/podcasts/new]
+
+
+Processing PodcastsController#new (for 127.0.0.1 at 2008-05-20 19:05:10) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzA2NDFkMmJjNTdmMzYyZjg5MDZkZjIzYmI0YTVl%0AMzEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a4781934e00b9bbb4739fb9ccf929d48ec734973
+  Parameters: {"action"=>"new", "controller"=>"admin/podcasts"}
+  [4;36;1mPodcast Columns (0.037492)[0m   [0;1mSHOW FIELDS FROM `podcasts`[0m
+Rendering template within layouts/application
+Rendering admin/podcasts/new
+Rendered admin/podcasts/_form (0.02913)
+Completed in 0.09228 (10 reqs/sec) | Rendering: 0.03316 (35%) | DB: 0.03749 (40%) | 200 OK [http://localhost/admin/podcasts/new]
+
+
+Processing PodcastsController#new (for 127.0.0.1 at 2008-05-20 19:06:25) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzA2NDFkMmJjNTdmMzYyZjg5MDZkZjIzYmI0YTVl%0AMzEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a4781934e00b9bbb4739fb9ccf929d48ec734973
+  Parameters: {"action"=>"new", "controller"=>"admin/podcasts"}
+  [4;35;1mPodcast Columns (0.002129)[0m   [0mSHOW FIELDS FROM `podcasts`[0m
+Rendering template within layouts/application
+Rendering admin/podcasts/new
+Rendered admin/podcasts/_form (0.00287)
+Completed in 0.01506 (66 reqs/sec) | Rendering: 0.00536 (35%) | DB: 0.00213 (14%) | 200 OK [http://localhost/admin/podcasts/new]
+
+
+Processing PodcastsController#new (for 127.0.0.1 at 2008-05-20 19:09:49) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzA2NDFkMmJjNTdmMzYyZjg5MDZkZjIzYmI0YTVl%0AMzEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a4781934e00b9bbb4739fb9ccf929d48ec734973
+  Parameters: {"action"=>"new", "controller"=>"admin/podcasts"}
+  [4;36;1mPodcast Columns (0.045956)[0m   [0;1mSHOW FIELDS FROM `podcasts`[0m
+Rendering template within layouts/application
+Rendering admin/podcasts/new
+Rendered admin/podcasts/_form (0.00315)
+Completed in 0.07506 (13 reqs/sec) | Rendering: 0.00621 (8%) | DB: 0.04596 (61%) | 200 OK [http://localhost/admin/podcasts/new]
+
+
+Processing PodcastsController#new (for 127.0.0.1 at 2008-05-20 19:10:40) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzA2NDFkMmJjNTdmMzYyZjg5MDZkZjIzYmI0YTVl%0AMzEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a4781934e00b9bbb4739fb9ccf929d48ec734973
+  Parameters: {"action"=>"new", "controller"=>"admin/podcasts"}
+  [4;35;1mPodcast Columns (0.003059)[0m   [0mSHOW FIELDS FROM `podcasts`[0m
+Rendering template within layouts/application
+Rendering admin/podcasts/new
+Rendered admin/podcasts/_form (0.00396)
+Completed in 0.01677 (59 reqs/sec) | Rendering: 0.00744 (44%) | DB: 0.00306 (18%) | 200 OK [http://localhost/admin/podcasts/new]
+
+
+Processing PodcastsController#new (for 127.0.0.1 at 2008-05-20 19:10:51) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzA2NDFkMmJjNTdmMzYyZjg5MDZkZjIzYmI0YTVl%0AMzEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a4781934e00b9bbb4739fb9ccf929d48ec734973
+  Parameters: {"action"=>"new", "controller"=>"admin/podcasts"}
+  [4;36;1mPodcast Columns (0.002816)[0m   [0;1mSHOW FIELDS FROM `podcasts`[0m
+Rendering template within layouts/application
+Rendering admin/podcasts/new
+Rendered admin/podcasts/_form (0.00362)
+Completed in 0.01645 (60 reqs/sec) | Rendering: 0.00733 (44%) | DB: 0.00282 (17%) | 200 OK [http://localhost/admin/podcasts/new]
+
+
+Processing PodcastsController#new (for 127.0.0.1 at 2008-05-20 19:11:11) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzA2NDFkMmJjNTdmMzYyZjg5MDZkZjIzYmI0YTVl%0AMzEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a4781934e00b9bbb4739fb9ccf929d48ec734973
+  Parameters: {"action"=>"new", "controller"=>"admin/podcasts"}
+  [4;35;1mPodcast Columns (0.002886)[0m   [0mSHOW FIELDS FROM `podcasts`[0m
+Rendering template within layouts/application
+Rendering admin/podcasts/new
+Rendered admin/podcasts/_form (0.00363)
+Completed in 0.01969 (50 reqs/sec) | Rendering: 0.00711 (36%) | DB: 0.00289 (14%) | 200 OK [http://localhost/admin/podcasts/new]
+
+
+Processing PodcastsController#new (for 127.0.0.1 at 2008-05-20 19:11:22) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzA2NDFkMmJjNTdmMzYyZjg5MDZkZjIzYmI0YTVl%0AMzEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a4781934e00b9bbb4739fb9ccf929d48ec734973
+  Parameters: {"action"=>"new", "controller"=>"admin/podcasts"}
+  [4;36;1mPodcast Columns (0.002944)[0m   [0;1mSHOW FIELDS FROM `podcasts`[0m
+Rendering template within layouts/application
+Rendering admin/podcasts/new
+Rendered admin/podcasts/_form (0.00413)
+Completed in 0.01697 (58 reqs/sec) | Rendering: 0.00753 (44%) | DB: 0.00294 (17%) | 200 OK [http://localhost/admin/podcasts/new]
+
+
+Processing PodcastsController#new (for 127.0.0.1 at 2008-05-20 19:11:57) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzA2NDFkMmJjNTdmMzYyZjg5MDZkZjIzYmI0YTVl%0AMzEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a4781934e00b9bbb4739fb9ccf929d48ec734973
+  Parameters: {"action"=>"new", "controller"=>"admin/podcasts"}
+  [4;35;1mPodcast Columns (0.002779)[0m   [0mSHOW FIELDS FROM `podcasts`[0m
+Rendering template within layouts/application
+Rendering admin/podcasts/new
+Rendered admin/podcasts/_form (0.00384)
+Completed in 0.01654 (60 reqs/sec) | Rendering: 0.00743 (44%) | DB: 0.00278 (16%) | 200 OK [http://localhost/admin/podcasts/new]
+
+
+Processing PodcastsController#index (for 127.0.0.1 at 2008-05-20 19:12:08) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzA2NDFkMmJjNTdmMzYyZjg5MDZkZjIzYmI0YTVl%0AMzEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a4781934e00b9bbb4739fb9ccf929d48ec734973
+  Parameters: {"action"=>"index", "controller"=>"admin/podcasts"}
+  [4;36;1mPodcast Load (0.000498)[0m   [0;1mSELECT * FROM `podcasts` [0m
+Rendering template within layouts/application
+Rendering admin/podcasts/index
+Completed in 0.04852 (20 reqs/sec) | Rendering: 0.02816 (58%) | DB: 0.00050 (1%) | 200 OK [http://localhost/admin/podcasts]
+
+
+Processing PodcastsController#index (for 127.0.0.1 at 2008-05-20 19:12:10) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzA2NDFkMmJjNTdmMzYyZjg5MDZkZjIzYmI0YTVl%0AMzEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a4781934e00b9bbb4739fb9ccf929d48ec734973
+  Parameters: {"action"=>"index", "controller"=>"admin/podcasts"}
+  [4;35;1mPodcast Load (0.001472)[0m   [0mSELECT * FROM `podcasts` [0m
+Rendering template within layouts/application
+Rendering admin/podcasts/index
+Completed in 0.01126 (88 reqs/sec) | Rendering: 0.00177 (15%) | DB: 0.00147 (13%) | 200 OK [http://localhost/admin/podcasts]
+
+
+Processing PodcastsController#index (for 127.0.0.1 at 2008-05-20 19:16:03) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzA2NDFkMmJjNTdmMzYyZjg5MDZkZjIzYmI0YTVl%0AMzEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a4781934e00b9bbb4739fb9ccf929d48ec734973
+  Parameters: {"action"=>"index", "controller"=>"admin/podcasts"}
+  [4;36;1mPodcast Load (0.000437)[0m   [0;1mSELECT * FROM `podcasts` [0m
+Rendering template within layouts/application
+Rendering admin/podcasts/index
+Completed in 0.09218 (10 reqs/sec) | Rendering: 0.06082 (65%) | DB: 0.00044 (0%) | 200 OK [http://localhost/admin/podcasts]
+
+
+Processing PodcastsController#new (for 127.0.0.1 at 2008-05-20 19:16:05) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzA2NDFkMmJjNTdmMzYyZjg5MDZkZjIzYmI0YTVl%0AMzEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a4781934e00b9bbb4739fb9ccf929d48ec734973
+  Parameters: {"action"=>"new", "controller"=>"admin/podcasts"}
+  [4;35;1mPodcast Columns (0.030689)[0m   [0mSHOW FIELDS FROM `podcasts`[0m
+Rendering template within layouts/application
+Rendering admin/podcasts/new
+Rendered admin/podcasts/_form (0.00391)
+Completed in 0.04500 (22 reqs/sec) | Rendering: 0.00728 (16%) | DB: 0.03069 (68%) | 200 OK [http://localhost/admin/podcasts/new]
+
+
+Processing PodcastsController#create (for 127.0.0.1 at 2008-05-20 19:17:23) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzA2NDFkMmJjNTdmMzYyZjg5MDZkZjIzYmI0YTVl%0AMzEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a4781934e00b9bbb4739fb9ccf929d48ec734973
+  Parameters: {"commit"=>"Create", "podcast"=>{"permalink"=>"lalala", "number"=>"01", "title"=>"Podcast 01", "tags"=>"tapajos marcos podcast ", "file_prefix"=>"lalala", "author"=>"Marcos Tapajós", "recorded_on(1i)"=>"2008", "description"=>"xtra! Extra! O Rails Podcast Brasil #17 está no ar… Extra! Extra! Fábio Akita tem novidade bombástica!\r\n\r\nEsta semana, em nosso podcast falamos sobre a tradução do livro Why’s (Poignant) Guide to Ruby para Português, Rails on Rubinius, Rails 2.1, Piston e Braid, Git no Windows e no final uma noticia do Fábio para a comunidade… e quem diria que um dia algo assim seria noticia…", "recorded_on(2i)"=>"5", "recorded_on(3i)"=>"20", "content"=>"xtra! Extra! O Rails Podcast Brasil #17 está no ar… Extra! Extra! Fábio Akita tem novidade bombástica!\r\n\r\nEsta semana, em nosso podcast falamos sobre a tradução do livro Why’s (Poignant) Guide to Ruby para Português, Rails on Rubinius, Rails 2.1, Piston e Braid, Git no Windows e no final uma noticia do Fábio para a comunidade… e quem diria que um dia algo assim seria noticia…"}, "authenticity_token"=>"0fd27aca1034d59f792b9d6d46a0ba4dc9905371", "action"=>"create", "controller"=>"admin/podcasts"}
+  [4;36;1mPodcast Columns (0.002113)[0m   [0;1mSHOW FIELDS FROM `podcasts`[0m
+  [4;35;1mSQL (0.000269)[0m   [0mBEGIN[0m
+  [4;36;1mPodcast Load (0.000322)[0m   [0;1mSELECT * FROM `podcasts` WHERE (podcasts.file_prefix = 'lalala') LIMIT 1[0m
+  [4;35;1mPodcast Load (0.001289)[0m   [0mSELECT * FROM `podcasts` WHERE (podcasts.number = 1) LIMIT 1[0m
+  [4;36;1mPodcast Create (0.000350)[0m   [0;1mINSERT INTO `podcasts` (`permalink`, `updated_at`, `number`, `title`, `file_prefix`, `recorded_on`, `tags`, `author`, `description`, `content`, `created_at`) VALUES('podcast-1-lalala', '2008-05-20 19:17:23', 1, 'Podcast 01', 'lalala', '2008-05-20', 'tapajos marcos podcast ', 'Marcos Tapajós', 'xtra! Extra! O Rails Podcast Brasil #17 está no ar… Extra! Extra! Fábio Akita tem novidade bombástica!\r\n\r\nEsta semana, em nosso podcast falamos sobre a tradução do livro Why’s (Poignant) Guide to Ruby para Português, Rails on Rubinius, Rails 2.1, Piston e Braid, Git no Windows e no final uma noticia do Fábio para a comunidade… e quem diria que um dia algo assim seria noticia…', 'xtra! Extra! O Rails Podcast Brasil #17 está no ar… Extra! Extra! Fábio Akita tem novidade bombástica!\r\n\r\nEsta semana, em nosso podcast falamos sobre a tradução do livro Why’s (Poignant) Guide to Ruby para Português, Rails on Rubinius, Rails 2.1, Piston e Braid, Git no Windows e no final uma noticia do Fábio para a comunidade… e quem diria que um dia algo assim seria noticia…', '2008-05-20 19:17:23')[0m
+  [4;35;1mSQL (0.000510)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/admin/podcasts/1
+Completed in 0.01727 (57 reqs/sec) | DB: 0.00485 (28%) | 302 Found [http://localhost/admin/podcasts]
+
+
+Processing PodcastsController#show (for 127.0.0.1 at 2008-05-20 19:17:23) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzA2NDFkMmJjNTdmMzYyZjg5MDZkZjIzYmI0YTVl%0AMzEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7BjoLbm90aWNlIhpTdWNjZXNzZnVsbHkgY3JlYXRlZCEGOgpAdXNlZHsG%0AOwdU--608f70e03949b28108d82f512d6dfd79b75a4dc4
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"admin/podcasts"}
+  [4;36;1mPodcast Columns (0.001727)[0m   [0;1mSHOW FIELDS FROM `podcasts`[0m
+  [4;35;1mPodcast Load (0.000357)[0m   [0mSELECT * FROM `podcasts` WHERE (`podcasts`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering admin/podcasts/show
+Completed in 0.05034 (19 reqs/sec) | Rendering: 0.04201 (83%) | DB: 0.00208 (4%) | 200 OK [http://localhost/admin/podcasts/1]
+
+
+Processing PodcastsController#index (for 127.0.0.1 at 2008-05-20 19:17:28) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzA2NDFkMmJjNTdmMzYyZjg5MDZkZjIzYmI0YTVl%0AMzEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a4781934e00b9bbb4739fb9ccf929d48ec734973
+  Parameters: {"action"=>"index", "controller"=>"admin/podcasts"}
+  [4;36;1mPodcast Load (0.000413)[0m   [0;1mSELECT * FROM `podcasts` [0m
+Rendering template within layouts/application
+Rendering admin/podcasts/index
+  [4;35;1mPodcast Columns (0.002248)[0m   [0mSHOW FIELDS FROM `podcasts`[0m
+
+
+ActionView::TemplateError (String can't be coerced into Fixnum) on line #18 of admin/podcasts/index.html.erb:
+15: 
+16: <ul>
+17:   <%- @podcasts.each do |podcast|%>
+18: 	<li> <h3><%=h (podcast.number + podcast.title) %></h3>
+19: 		<%= h podcast.description%>
+20:     <!-- <tr>
+21:           <td><%=h podcast.number %></td>
+
+    app/views/admin/podcasts/index.html.erb:18:in `+'
+    app/views/admin/podcasts/index.html.erb:18:in `_run_erb_47app47views47admin47podcasts47index46html46erb'
+    app/views/admin/podcasts/index.html.erb:17:in `each'
+    app/views/admin/podcasts/index.html.erb:17:in `_run_erb_47app47views47admin47podcasts47index46html46erb'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_view/base.rb:637:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_view/base.rb:637:in `compile_and_render_template'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_view/base.rb:365:in `render_template'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_view/base.rb:316:in `render_file'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1100:in `render_for_file'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:858:in `render_with_no_layout'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:872:in `render_with_no_layout'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/layout.rb:262:in `render_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:51:in `render'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:51:in `render'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/mime_responds.rb:131:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/mime_responds.rb:131:in `custom'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/mime_responds.rb:156:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/mime_responds.rb:156:in `respond'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/mime_responds.rb:150:in `each'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/mime_responds.rb:150:in `respond'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/mime_responds.rb:107:in `respond_to'
+    vendor/plugins/resource_controller/lib/resource_controller/helpers/internal.rb:10:in `response_for'
+    vendor/plugins/resource_controller/lib/resource_controller/actions.rb:7:in `index'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1158:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1158:in `perform_action_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:697:in `call_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:689:in `perform_action_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/rescue.rb:199:in `perform_action_without_caching'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/caching.rb:678:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.0.2/lib/active_record/query_cache.rb:8:in `cache'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/caching.rb:677:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:685:in `process_without_session_management_support'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/session_management.rb:123:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:388:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:171:in `handle_request'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.4/lib/mongrel/rails.rb:76:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.4/lib/mongrel/rails.rb:74:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.4/lib/mongrel/rails.rb:74:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:159:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:158:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:158:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:268:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:268:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:268:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.4/lib/mongrel/configurator.rb:282:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.4/lib/mongrel/configurator.rb:281:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.4/lib/mongrel/configurator.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.4/bin/mongrel_rails:128:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.4/lib/mongrel/command.rb:212:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.4/bin/mongrel_rails:281
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    /Library/Ruby/Gems/1.8/gems/rails-2.0.2/lib/commands/servers/mongrel.rb:64
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    /Library/Ruby/Gems/1.8/gems/rails-2.0.2/lib/commands/server.rb:39
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+Rendering /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing PodcastsController#index (for 127.0.0.1 at 2008-05-20 19:17:33) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzA2NDFkMmJjNTdmMzYyZjg5MDZkZjIzYmI0YTVl%0AMzEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a4781934e00b9bbb4739fb9ccf929d48ec734973
+  Parameters: {"action"=>"index", "controller"=>"admin/podcasts"}
+  [4;36;1mPodcast Load (0.000460)[0m   [0;1mSELECT * FROM `podcasts` [0m
+Rendering template within layouts/application
+Rendering admin/podcasts/index
+  [4;35;1mPodcast Columns (0.002718)[0m   [0mSHOW FIELDS FROM `podcasts`[0m
+
+
+ActionView::TemplateError (String can't be coerced into Fixnum) on line #18 of admin/podcasts/index.html.erb:
+15: 
+16: <ul>
+17:   <%- @podcasts.each do |podcast|%>
+18: 	<li> <h3><%=h (podcast.number + podcast.title) %></h3>
+19: 		<%= h podcast.description%>
+20:     <!-- <tr>
+21:           <td><%=h podcast.number %></td>
+
+    app/views/admin/podcasts/index.html.erb:18:in `+'
+    app/views/admin/podcasts/index.html.erb:18:in `_run_erb_47app47views47admin47podcasts47index46html46erb'
+    app/views/admin/podcasts/index.html.erb:17:in `each'
+    app/views/admin/podcasts/index.html.erb:17:in `_run_erb_47app47views47admin47podcasts47index46html46erb'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_view/base.rb:637:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_view/base.rb:637:in `compile_and_render_template'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_view/base.rb:365:in `render_template'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_view/base.rb:316:in `render_file'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1100:in `render_for_file'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:858:in `render_with_no_layout'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:872:in `render_with_no_layout'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/layout.rb:262:in `render_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:51:in `render'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:51:in `render'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/mime_responds.rb:131:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/mime_responds.rb:131:in `custom'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/mime_responds.rb:156:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/mime_responds.rb:156:in `respond'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/mime_responds.rb:150:in `each'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/mime_responds.rb:150:in `respond'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/mime_responds.rb:107:in `respond_to'
+    vendor/plugins/resource_controller/lib/resource_controller/helpers/internal.rb:10:in `response_for'
+    vendor/plugins/resource_controller/lib/resource_controller/actions.rb:7:in `index'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1158:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1158:in `perform_action_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:697:in `call_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:689:in `perform_action_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/rescue.rb:199:in `perform_action_without_caching'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/caching.rb:678:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.0.2/lib/active_record/query_cache.rb:8:in `cache'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/caching.rb:677:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:685:in `process_without_session_management_support'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/session_management.rb:123:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:388:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:171:in `handle_request'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.4/lib/mongrel/rails.rb:76:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.4/lib/mongrel/rails.rb:74:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.4/lib/mongrel/rails.rb:74:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:159:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:158:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:158:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:268:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:268:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:268:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.4/lib/mongrel/configurator.rb:282:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.4/lib/mongrel/configurator.rb:281:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.4/lib/mongrel/configurator.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.4/bin/mongrel_rails:128:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.4/lib/mongrel/command.rb:212:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.4/bin/mongrel_rails:281
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    /Library/Ruby/Gems/1.8/gems/rails-2.0.2/lib/commands/servers/mongrel.rb:64
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    /Library/Ruby/Gems/1.8/gems/rails-2.0.2/lib/commands/server.rb:39
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+Rendering /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing PodcastsController#index (for 127.0.0.1 at 2008-05-20 19:17:46) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzA2NDFkMmJjNTdmMzYyZjg5MDZkZjIzYmI0YTVl%0AMzEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a4781934e00b9bbb4739fb9ccf929d48ec734973
+  Parameters: {"action"=>"index", "controller"=>"admin/podcasts"}
+  [4;36;1mPodcast Load (0.000436)[0m   [0;1mSELECT * FROM `podcasts` [0m
+Rendering template within layouts/application
+Rendering admin/podcasts/index
+  [4;35;1mPodcast Columns (0.001912)[0m   [0mSHOW FIELDS FROM `podcasts`[0m
+Completed in 0.01620 (61 reqs/sec) | Rendering: 0.00671 (41%) | DB: 0.00507 (31%) | 200 OK [http://localhost/admin/podcasts]
+
+
+Processing PodcastsController#index (for 127.0.0.1 at 2008-05-20 19:18:11) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzA2NDFkMmJjNTdmMzYyZjg5MDZkZjIzYmI0YTVl%0AMzEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a4781934e00b9bbb4739fb9ccf929d48ec734973
+  Parameters: {"action"=>"index", "controller"=>"admin/podcasts"}
+  [4;36;1mPodcast Load (0.000418)[0m   [0;1mSELECT * FROM `podcasts` [0m
+Rendering template within layouts/application
+Rendering admin/podcasts/index
+  [4;35;1mPodcast Columns (0.002280)[0m   [0mSHOW FIELDS FROM `podcasts`[0m
+Completed in 0.01489 (67 reqs/sec) | Rendering: 0.00650 (43%) | DB: 0.00270 (18%) | 200 OK [http://localhost/admin/podcasts]
+
+
+Processing PodcastsController#index (for 127.0.0.1 at 2008-05-20 19:18:28) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzA2NDFkMmJjNTdmMzYyZjg5MDZkZjIzYmI0YTVl%0AMzEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a4781934e00b9bbb4739fb9ccf929d48ec734973
+  Parameters: {"action"=>"index", "controller"=>"admin/podcasts"}
+  [4;36;1mPodcast Load (0.009700)[0m   [0;1mSELECT * FROM `podcasts` [0m
+Rendering template within layouts/application
+Rendering admin/podcasts/index
+  [4;35;1mPodcast Columns (0.003507)[0m   [0mSHOW FIELDS FROM `podcasts`[0m
+Completed in 0.02831 (35 reqs/sec) | Rendering: 0.00878 (31%) | DB: 0.01321 (46%) | 200 OK [http://localhost/admin/podcasts]
+
+
+Processing PodcastsController#index (for 127.0.0.1 at 2008-05-20 19:19:19) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzA2NDFkMmJjNTdmMzYyZjg5MDZkZjIzYmI0YTVl%0AMzEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a4781934e00b9bbb4739fb9ccf929d48ec734973
+  Parameters: {"action"=>"index", "controller"=>"admin/podcasts"}
+  [4;36;1mPodcast Load (0.000399)[0m   [0;1mSELECT * FROM `podcasts` [0m
+Rendering template within layouts/application
+Rendering admin/podcasts/index
+  [4;35;1mPodcast Columns (0.001571)[0m   [0mSHOW FIELDS FROM `podcasts`[0m
+Completed in 0.01625 (61 reqs/sec) | Rendering: 0.00812 (49%) | DB: 0.00197 (12%) | 200 OK [http://localhost/admin/podcasts]
+
+
+Processing PodcastsController#index (for 127.0.0.1 at 2008-05-20 19:19:42) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzA2NDFkMmJjNTdmMzYyZjg5MDZkZjIzYmI0YTVl%0AMzEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a4781934e00b9bbb4739fb9ccf929d48ec734973
+  Parameters: {"action"=>"index", "controller"=>"admin/podcasts"}
+  [4;36;1mPodcast Load (0.002476)[0m   [0;1mSELECT * FROM `podcasts` [0m
+Rendering template within layouts/application
+Rendering admin/podcasts/index
+  [4;35;1mPodcast Columns (0.002200)[0m   [0mSHOW FIELDS FROM `podcasts`[0m
+Completed in 0.02332 (42 reqs/sec) | Rendering: 0.00751 (32%) | DB: 0.00468 (20%) | 200 OK [http://localhost/admin/podcasts]
+
+
+Processing PodcastsController#index (for 127.0.0.1 at 2008-05-20 19:20:26) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzA2NDFkMmJjNTdmMzYyZjg5MDZkZjIzYmI0YTVl%0AMzEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a4781934e00b9bbb4739fb9ccf929d48ec734973
+  Parameters: {"action"=>"index", "controller"=>"admin/podcasts"}
+  [4;36;1mPodcast Load (0.000419)[0m   [0;1mSELECT * FROM `podcasts` [0m
+Rendering template within layouts/application
+Rendering admin/podcasts/index
+  [4;35;1mPodcast Columns (0.001944)[0m   [0mSHOW FIELDS FROM `podcasts`[0m
+Completed in 0.01472 (67 reqs/sec) | Rendering: 0.00664 (45%) | DB: 0.00236 (16%) | 200 OK [http://localhost/admin/podcasts]
+
+
+Processing PodcastsController#index (for 127.0.0.1 at 2008-05-20 19:21:25) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzA2NDFkMmJjNTdmMzYyZjg5MDZkZjIzYmI0YTVl%0AMzEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a4781934e00b9bbb4739fb9ccf929d48ec734973
+  Parameters: {"action"=>"index", "controller"=>"admin/podcasts"}
+  [4;36;1mPodcast Load (0.000422)[0m   [0;1mSELECT * FROM `podcasts` [0m
+Rendering template within layouts/application
+Rendering admin/podcasts/index
+  [4;35;1mPodcast Columns (0.001915)[0m   [0mSHOW FIELDS FROM `podcasts`[0m
+Completed in 0.01313 (76 reqs/sec) | Rendering: 0.00481 (36%) | DB: 0.00234 (17%) | 200 OK [http://localhost/admin/podcasts]
+
+
+Processing PodcastsController#index (for 127.0.0.1 at 2008-05-20 19:22:10) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzA2NDFkMmJjNTdmMzYyZjg5MDZkZjIzYmI0YTVl%0AMzEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a4781934e00b9bbb4739fb9ccf929d48ec734973
+  Parameters: {"action"=>"index", "controller"=>"admin/podcasts"}
+  [4;36;1mPodcast Load (0.000913)[0m   [0;1mSELECT * FROM `podcasts` [0m
+Rendering template within layouts/application
+Rendering admin/podcasts/index
+  [4;35;1mPodcast Columns (0.002002)[0m   [0mSHOW FIELDS FROM `podcasts`[0m
+Completed in 0.04525 (22 reqs/sec) | Rendering: 0.01340 (29%) | DB: 0.00292 (6%) | 200 OK [http://localhost/admin/podcasts]
+
+
+Processing PodcastsController#index (for 127.0.0.1 at 2008-05-20 19:22:39) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzA2NDFkMmJjNTdmMzYyZjg5MDZkZjIzYmI0YTVl%0AMzEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a4781934e00b9bbb4739fb9ccf929d48ec734973
+  Parameters: {"action"=>"index", "controller"=>"admin/podcasts"}
+  [4;36;1mPodcast Load (0.001412)[0m   [0;1mSELECT * FROM `podcasts` [0m
+Rendering template within layouts/application
+Rendering admin/podcasts/index
+  [4;35;1mPodcast Columns (0.001991)[0m   [0mSHOW FIELDS FROM `podcasts`[0m
+Completed in 0.01454 (68 reqs/sec) | Rendering: 0.00436 (29%) | DB: 0.00340 (23%) | 200 OK [http://localhost/admin/podcasts]
+
+
+Processing PodcastsController#index (for 127.0.0.1 at 2008-05-20 19:23:06) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzA2NDFkMmJjNTdmMzYyZjg5MDZkZjIzYmI0YTVl%0AMzEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a4781934e00b9bbb4739fb9ccf929d48ec734973
+  Parameters: {"action"=>"index", "controller"=>"admin/podcasts"}
+  [4;36;1mPodcast Load (0.000425)[0m   [0;1mSELECT * FROM `podcasts` [0m
+Rendering template within layouts/application
+Rendering admin/podcasts/index
+  [4;35;1mPodcast Columns (0.001516)[0m   [0mSHOW FIELDS FROM `podcasts`[0m
+Completed in 0.01191 (83 reqs/sec) | Rendering: 0.00402 (33%) | DB: 0.00194 (16%) | 200 OK [http://localhost/admin/podcasts]
+
+
+Processing PodcastsController#index (for 127.0.0.1 at 2008-05-20 19:23:33) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzA2NDFkMmJjNTdmMzYyZjg5MDZkZjIzYmI0YTVl%0AMzEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a4781934e00b9bbb4739fb9ccf929d48ec734973
+  Parameters: {"action"=>"index", "controller"=>"admin/podcasts"}
+  [4;36;1mPodcast Load (0.000415)[0m   [0;1mSELECT * FROM `podcasts` [0m
+Rendering template within layouts/application
+Rendering admin/podcasts/index
+  [4;35;1mPodcast Columns (0.003048)[0m   [0mSHOW FIELDS FROM `podcasts`[0m
+Completed in 0.01531 (65 reqs/sec) | Rendering: 0.00601 (39%) | DB: 0.00346 (22%) | 200 OK [http://localhost/admin/podcasts]
+
+
+Processing PodcastsController#index (for 127.0.0.1 at 2008-05-20 19:23:44) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzA2NDFkMmJjNTdmMzYyZjg5MDZkZjIzYmI0YTVl%0AMzEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a4781934e00b9bbb4739fb9ccf929d48ec734973
+  Parameters: {"action"=>"index", "controller"=>"admin/podcasts"}
+  [4;36;1mPodcast Load (0.002099)[0m   [0;1mSELECT * FROM `podcasts` [0m
+Rendering template within layouts/application
+Rendering admin/podcasts/index
+  [4;35;1mPodcast Columns (0.003206)[0m   [0mSHOW FIELDS FROM `podcasts`[0m
+Completed in 0.01712 (58 reqs/sec) | Rendering: 0.00585 (34%) | DB: 0.00531 (30%) | 200 OK [http://localhost/admin/podcasts]
+
+
+Processing PodcastsController#index (for 127.0.0.1 at 2008-05-20 19:24:54) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzA2NDFkMmJjNTdmMzYyZjg5MDZkZjIzYmI0YTVl%0AMzEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a4781934e00b9bbb4739fb9ccf929d48ec734973
+  Parameters: {"action"=>"index", "controller"=>"admin/podcasts"}
+  [4;36;1mPodcast Load (0.000459)[0m   [0;1mSELECT * FROM `podcasts` [0m
+Rendering template within layouts/application
+Rendering admin/podcasts/index
+  [4;35;1mPodcast Columns (0.002515)[0m   [0mSHOW FIELDS FROM `podcasts`[0m
+Completed in 0.01394 (71 reqs/sec) | Rendering: 0.00427 (30%) | DB: 0.00297 (21%) | 200 OK [http://localhost/admin/podcasts]
+
+
+Processing PodcastsController#index (for 127.0.0.1 at 2008-05-20 19:25:08) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzA2NDFkMmJjNTdmMzYyZjg5MDZkZjIzYmI0YTVl%0AMzEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a4781934e00b9bbb4739fb9ccf929d48ec734973
+  Parameters: {"action"=>"index", "controller"=>"admin/podcasts"}
+  [4;36;1mPodcast Load (0.007797)[0m   [0;1mSELECT * FROM `podcasts` [0m
+Rendering template within layouts/application
+Rendering admin/podcasts/index
+  [4;35;1mPodcast Columns (0.002299)[0m   [0mSHOW FIELDS FROM `podcasts`[0m
+Completed in 0.03368 (29 reqs/sec) | Rendering: 0.00452 (13%) | DB: 0.01010 (29%) | 200 OK [http://localhost/admin/podcasts]
+
+
+Processing PodcastsController#new (for 127.0.0.1 at 2008-05-20 19:25:42) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzA2NDFkMmJjNTdmMzYyZjg5MDZkZjIzYmI0YTVl%0AMzEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a4781934e00b9bbb4739fb9ccf929d48ec734973
+  Parameters: {"action"=>"new", "controller"=>"admin/podcasts"}
+  [4;36;1mPodcast Columns (0.001618)[0m   [0;1mSHOW FIELDS FROM `podcasts`[0m
+Rendering template within layouts/application
+Rendering admin/podcasts/new
+Rendered admin/podcasts/_form (0.00300)
+Completed in 0.01334 (74 reqs/sec) | Rendering: 0.00554 (41%) | DB: 0.00162 (12%) | 200 OK [http://localhost/admin/podcasts/new]
+
+
+Processing PodcastsController#index (for 127.0.0.1 at 2008-05-20 19:25:45) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzA2NDFkMmJjNTdmMzYyZjg5MDZkZjIzYmI0YTVl%0AMzEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a4781934e00b9bbb4739fb9ccf929d48ec734973
+  Parameters: {"action"=>"index", "controller"=>"admin/podcasts"}
+  [4;35;1mPodcast Load (0.003020)[0m   [0mSELECT * FROM `podcasts` [0m
+Rendering template within layouts/application
+Rendering admin/podcasts/index
+  [4;36;1mPodcast Columns (0.014755)[0m   [0;1mSHOW FIELDS FROM `podcasts`[0m
+Completed in 0.02969 (33 reqs/sec) | Rendering: 0.00569 (19%) | DB: 0.01777 (59%) | 200 OK [http://localhost/admin/podcasts]
+
+
+Processing PodcastsController#edit (for 127.0.0.1 at 2008-05-20 19:25:47) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzA2NDFkMmJjNTdmMzYyZjg5MDZkZjIzYmI0YTVl%0AMzEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a4781934e00b9bbb4739fb9ccf929d48ec734973
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"admin/podcasts"}
+  [4;35;1mPodcast Columns (0.262095)[0m   [0mSHOW FIELDS FROM `podcasts`[0m
+  [4;36;1mPodcast Load (0.018323)[0m   [0;1mSELECT * FROM `podcasts` WHERE (`podcasts`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering admin/podcasts/edit
+Rendered admin/podcasts/_form (0.00169)
+Completed in 0.36403 (2 reqs/sec) | Rendering: 0.07489 (20%) | DB: 0.28042 (77%) | 200 OK [http://localhost/admin/podcasts/1/edit]
+
+
+Processing PodcastsController#index (for 127.0.0.1 at 2008-05-20 19:25:52) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzA2NDFkMmJjNTdmMzYyZjg5MDZkZjIzYmI0YTVl%0AMzEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a4781934e00b9bbb4739fb9ccf929d48ec734973
+  Parameters: {"action"=>"index", "controller"=>"admin/podcasts"}
+  [4;35;1mPodcast Load (0.000380)[0m   [0mSELECT * FROM `podcasts` [0m
+Rendering template within layouts/application
+Rendering admin/podcasts/index
+  [4;36;1mPodcast Columns (0.002002)[0m   [0;1mSHOW FIELDS FROM `podcasts`[0m
+Completed in 0.01244 (80 reqs/sec) | Rendering: 0.00436 (35%) | DB: 0.00238 (19%) | 200 OK [http://localhost/admin/podcasts]
+
+
+Processing PodcastsController#index (for 127.0.0.1 at 2008-05-20 19:26:36) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzA2NDFkMmJjNTdmMzYyZjg5MDZkZjIzYmI0YTVl%0AMzEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a4781934e00b9bbb4739fb9ccf929d48ec734973
+  Parameters: {"action"=>"index", "controller"=>"admin/podcasts"}
+  [4;35;1mPodcast Load (0.000391)[0m   [0mSELECT * FROM `podcasts` [0m
+Rendering template within layouts/application
+Rendering admin/podcasts/index
+  [4;36;1mPodcast Columns (0.005452)[0m   [0;1mSHOW FIELDS FROM `podcasts`[0m
+Completed in 0.01757 (56 reqs/sec) | Rendering: 0.00571 (32%) | DB: 0.00584 (33%) | 200 OK [http://localhost/admin/podcasts]
+
+
+Processing PodcastsController#index (for 127.0.0.1 at 2008-05-20 19:27:25) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzA2NDFkMmJjNTdmMzYyZjg5MDZkZjIzYmI0YTVl%0AMzEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a4781934e00b9bbb4739fb9ccf929d48ec734973
+  Parameters: {"action"=>"index", "controller"=>"admin/podcasts"}
+  [4;35;1mPodcast Load (0.003271)[0m   [0mSELECT * FROM `podcasts` [0m
+Rendering template within layouts/application
+Rendering admin/podcasts/index
+  [4;36;1mPodcast Columns (0.002562)[0m   [0;1mSHOW FIELDS FROM `podcasts`[0m
+Completed in 0.04140 (24 reqs/sec) | Rendering: 0.00540 (13%) | DB: 0.00583 (14%) | 200 OK [http://localhost/admin/podcasts]
+
+
+Processing PodcastsController#edit (for 127.0.0.1 at 2008-05-20 19:27:32) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzA2NDFkMmJjNTdmMzYyZjg5MDZkZjIzYmI0YTVl%0AMzEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a4781934e00b9bbb4739fb9ccf929d48ec734973
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"admin/podcasts"}
+  [4;35;1mPodcast Columns (0.003974)[0m   [0mSHOW FIELDS FROM `podcasts`[0m
+  [4;36;1mPodcast Load (0.000379)[0m   [0;1mSELECT * FROM `podcasts` WHERE (`podcasts`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering admin/podcasts/edit
+Rendered admin/podcasts/_form (0.00187)
+Completed in 0.01869 (53 reqs/sec) | Rendering: 0.00759 (40%) | DB: 0.00435 (23%) | 200 OK [http://localhost/admin/podcasts/1/edit]
+
+
+Processing PodcastsController#update (for 127.0.0.1 at 2008-05-20 19:27:38) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzA2NDFkMmJjNTdmMzYyZjg5MDZkZjIzYmI0YTVl%0AMzEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a4781934e00b9bbb4739fb9ccf929d48ec734973
+  Parameters: {"commit"=>"Update", "podcast"=>{"permalink"=>"podcast-1-lalala", "number"=>"1", "title"=>"Podcast", "tags"=>"tapajos marcos podcast ", "file_prefix"=>"lalala", "author"=>"Marcos Tapajós", "recorded_on(1i)"=>"2008", "description"=>"xtra! Extra! O Rails Podcast Brasil #17 está no ar… Extra! Extra! Fábio Akita tem novidade bombástica!\r\n\r\nEsta semana, em nosso podcast falamos sobre a tradução do livro Why’s (Poignant) Guide to Ruby para Português, Rails on Rubinius, Rails 2.1, Piston e Braid, Git no Windows e no final uma noticia do Fábio para a comunidade… e quem diria que um dia algo assim seria noticia…", "recorded_on(2i)"=>"5", "recorded_on(3i)"=>"20", "content"=>"xtra! Extra! O Rails Podcast Brasil #17 está no ar… Extra! Extra! Fábio Akita tem novidade bombástica!\r\n\r\nEsta semana, em nosso podcast falamos sobre a tradução do livro Why’s (Poignant) Guide to Ruby para Português, Rails on Rubinius, Rails 2.1, Piston e Braid, Git no Windows e no final uma noticia do Fábio para a comunidade… e quem diria que um dia algo assim seria noticia…"}, "authenticity_token"=>"0fd27aca1034d59f792b9d6d46a0ba4dc9905371", "_method"=>"put", "action"=>"update", "id"=>"1", "controller"=>"admin/podcasts"}
+  [4;35;1mPodcast Columns (0.002846)[0m   [0mSHOW FIELDS FROM `podcasts`[0m
+  [4;36;1mPodcast Load (0.000453)[0m   [0;1mSELECT * FROM `podcasts` WHERE (`podcasts`.`id` = 1) [0m
+  [4;35;1mSQL (0.000230)[0m   [0mBEGIN[0m
+  [4;36;1mPodcast Load (0.000545)[0m   [0;1mSELECT * FROM `podcasts` WHERE (podcasts.file_prefix = 'lalala' AND podcasts.id <> 1) LIMIT 1[0m
+  [4;35;1mPodcast Load (0.000432)[0m   [0mSELECT * FROM `podcasts` WHERE (podcasts.number = 1 AND podcasts.id <> 1) LIMIT 1[0m
+  [4;36;1mPodcast Update (0.002172)[0m   [0;1mUPDATE `podcasts` SET `created_at` = '2008-05-20 19:17:23', `content` = 'xtra! Extra! O Rails Podcast Brasil #17 está no ar… Extra! Extra! Fábio Akita tem novidade bombástica!\r\n\r\nEsta semana, em nosso podcast falamos sobre a tradução do livro Why’s (Poignant) Guide to Ruby para Português, Rails on Rubinius, Rails 2.1, Piston e Braid, Git no Windows e no final uma noticia do Fábio para a comunidade… e quem diria que um dia algo assim seria noticia…', `tags` = 'tapajos marcos podcast ', `title` = 'Podcast', `number` = 1, `permalink` = 'podcast-1-podcast-1-lalala', `file_prefix` = 'lalala', `recorded_on` = '2008-05-20', `description` = 'xtra! Extra! O Rails Podcast Brasil #17 está no ar… Extra! Extra! Fábio Akita tem novidade bombástica!\r\n\r\nEsta semana, em nosso podcast falamos sobre a tradução do livro Why’s (Poignant) Guide to Ruby para Português, Rails on Rubinius, Rails 2.1, Piston e Braid, Git no Windows e no final uma noticia do Fábio para a comunidade… e quem diria que um dia algo assim seria noticia…', `updated_at` = '2008-05-20 19:27:38', `author` = 'Marcos Tapajós' WHERE `id` = 1[0m
+  [4;35;1mSQL (0.022144)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/admin/podcasts/1
+Completed in 0.04327 (23 reqs/sec) | DB: 0.02882 (66%) | 302 Found [http://localhost/admin/podcasts/1]
+
+
+Processing PodcastsController#show (for 127.0.0.1 at 2008-05-20 19:27:38) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzA2NDFkMmJjNTdmMzYyZjg5MDZkZjIzYmI0YTVl%0AMzEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7BjoLbm90aWNlIhpTdWNjZXNzZnVsbHkgdXBkYXRlZCEGOgpAdXNlZHsG%0AOwdU--e0df53cb71315a2f67e3150f1b7fdb1e05b89c00
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"admin/podcasts"}
+  [4;36;1mPodcast Columns (0.003331)[0m   [0;1mSHOW FIELDS FROM `podcasts`[0m
+  [4;35;1mPodcast Load (0.002650)[0m   [0mSELECT * FROM `podcasts` WHERE (`podcasts`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering admin/podcasts/show
+Completed in 0.02168 (46 reqs/sec) | Rendering: 0.00864 (39%) | DB: 0.00598 (27%) | 200 OK [http://localhost/admin/podcasts/1]
+
+
+Processing PodcastsController#index (for 127.0.0.1 at 2008-05-20 19:27:40) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzA2NDFkMmJjNTdmMzYyZjg5MDZkZjIzYmI0YTVl%0AMzEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--a4781934e00b9bbb4739fb9ccf929d48ec734973
+  Parameters: {"action"=>"index", "controller"=>"admin/podcasts"}
+  [4;36;1mPodcast Load (0.000399)[0m   [0;1mSELECT * FROM `podcasts` [0m
+Rendering template within layouts/application
+Rendering admin/podcasts/index
+  [4;35;1mPodcast Columns (0.005591)[0m   [0mSHOW FIELDS FROM `podcasts`[0m
+Completed in 0.01710 (58 reqs/sec) | Rendering: 0.00538 (31%) | DB: 0.00599 (35%) | 200 OK [http://localhost/admin/podcasts]
