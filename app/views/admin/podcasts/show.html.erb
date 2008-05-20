@@ -1,0 +1,31 @@
+<p>
+  <strong>Number:</strong><%=h @podcast.number %>
+</p>
+<p>
+  <strong>Title:</strong><%=h @podcast.title %>
+</p>
+<p>
+  <strong>Description:</strong><%=h @podcast.description %>
+</p>
+<p>
+  <strong>Author:</strong><%=h @podcast.author %>
+</p>
+<p>
+  <strong>Tags:</strong><%=h @podcast.tags %>
+</p>
+<p>
+  <strong>Recorded on:</strong><%=h @podcast.recorded_on %>
+</p>
+<p>
+  <strong>Content:</strong><%=h @podcast.content %>
+</p>
+<p>
+  <strong>Permalink:</strong><%=h @podcast.permalink %>
+</p>
+<p>
+  <strong>File prefix:</strong><%=h @podcast.file_prefix %>
+</p>
+
+<%= link_to 'Edit', edit_object_url %>
+|
+<%= link_to 'Back', collection_url %>

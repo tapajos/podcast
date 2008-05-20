@@ -1,0 +1,35 @@
+<h1>Listing Podcasts</h1>
+
+<table>
+  <tr>
+    <th>Number</th>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Author</th>
+    <th>Tags</th>
+    <th>Recorded on</th>
+    <th>Content</th>
+    <th>Permalink</th>
+    <th>File prefix</th>
+  </tr>
+  <%- @podcasts.each do |podcast|%>
+    <tr>
+      <td><%=h podcast.number %></td>
+      <td><%=h podcast.title %></td>
+      <td><%=h podcast.description %></td>
+      <td><%=h podcast.author %></td>
+      <td><%=h podcast.tags %></td>
+      <td><%=h podcast.recorded_on %></td>
+      <td><%=h podcast.content %></td>
+      <td><%=h podcast.permalink %></td>
+      <td><%=h podcast.file_prefix %></td>
+    
+      <td><%=link_to 'Show', object_url(podcast) %></td>
+      <td><%=link_to 'Edit', edit_object_url(podcast) %></td>
+      <td><%=link_to 'Destroy', object_url(podcast), :confirm => 'Are you sure?', :method => :delete %></td>
+    </tr>
+  <% end %>
+</table>
+<br/>
+
+<%= link_to 'New Podcast', new_object_url %>

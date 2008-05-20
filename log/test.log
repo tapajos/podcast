@@ -1,0 +1,182 @@
+  [4;36;1mSQL (0.000248)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000111)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000577)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000223)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000227)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000222)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000321)[0m   [0;1mSELECT count(*) AS count_all FROM `podcasts` [0m
+
+
+Processing PodcastsController#create (for 0.0.0.0 at 2008-05-20 16:46:17) [POST]
+  Session ID: 
+  Parameters: {"podcast"=>{}, "action"=>"create", "controller"=>"podcasts"}
+  [4;35;1mPodcast Load (0.000364)[0m   [0mSELECT * FROM `podcasts` WHERE (podcasts.file_prefix IS NULL) LIMIT 1[0m
+  [4;36;1mPodcast Load (0.000263)[0m   [0;1mSELECT * FROM `podcasts` WHERE (podcasts.number IS NULL) LIMIT 1[0m
+Rendering podcasts/new
+Rendered podcasts/_form (0.00294)
+Completed in 0.01162 (86 reqs/sec) | Rendering: 0.00513 (44%) | DB: 0.00220 (18%) | 200 OK [http://test.host/podcasts?]
+  [4;35;1mSQL (0.000296)[0m   [0mSELECT count(*) AS count_all FROM `podcasts` [0m
+  [4;36;1mSQL (0.000289)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000221)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000280)[0m   [0;1mSELECT count(*) AS count_all FROM `podcasts` [0m
+
+
+Processing PodcastsController#destroy (for 0.0.0.0 at 2008-05-20 16:46:17) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"1", "controller"=>"podcasts"}
+  [4;35;1mPodcast Load (0.000316)[0m   [0mSELECT * FROM `podcasts` WHERE (`podcasts`.`id` = 1) [0m
+  [4;36;1mPodcast Destroy (0.000248)[0m   [0;1m DELETE FROM `podcasts`
+ WHERE `id` = 1
+[0m
+Redirected to http://test.host/podcasts
+Completed in 0.00171 (585 reqs/sec) | DB: 0.00165 (96%) | 302 Found [http://test.host/podcasts/1]
+  [4;35;1mSQL (0.000251)[0m   [0mSELECT count(*) AS count_all FROM `podcasts` [0m
+  [4;36;1mSQL (0.030073)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000323)[0m   [0mBEGIN[0m
+
+
+Processing PodcastsController#edit (for 0.0.0.0 at 2008-05-20 16:46:17) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"podcasts"}
+  [4;36;1mPodcast Load (0.000461)[0m   [0;1mSELECT * FROM `podcasts` WHERE (`podcasts`.`id` = 1) [0m
+Rendering podcasts/edit
+Rendered podcasts/_form (0.00210)
+Completed in 0.00652 (153 reqs/sec) | Rendering: 0.00505 (77%) | DB: 0.03111 (477%) | 200 OK [http://test.host/podcasts/1/edit]
+  [4;35;1mSQL (0.000269)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000262)[0m   [0;1mBEGIN[0m
+
+
+Processing PodcastsController#index (for 0.0.0.0 at 2008-05-20 16:46:17) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"podcasts"}
+  [4;35;1mPodcast Load (0.000619)[0m   [0mSELECT * FROM `podcasts` [0m
+Rendering podcasts/index
+Completed in 0.00541 (184 reqs/sec) | Rendering: 0.00397 (73%) | DB: 0.00115 (21%) | 200 OK [http://test.host/podcasts]
+  [4;36;1mSQL (0.000165)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000174)[0m   [0mBEGIN[0m
+
+
+Processing PodcastsController#new (for 0.0.0.0 at 2008-05-20 16:46:17) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"podcasts"}
+Rendering podcasts/new
+Rendered podcasts/_form (0.00121)
+Completed in 0.00268 (373 reqs/sec) | Rendering: 0.00229 (85%) | DB: 0.00034 (12%) | 200 OK [http://test.host/podcasts/new]
+  [4;36;1mSQL (0.000192)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000139)[0m   [0mBEGIN[0m
+
+
+Processing PodcastsController#show (for 0.0.0.0 at 2008-05-20 16:46:17) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"podcasts"}
+  [4;36;1mPodcast Load (0.000371)[0m   [0;1mSELECT * FROM `podcasts` WHERE (`podcasts`.`id` = 1) [0m
+Rendering podcasts/show
+Completed in 0.00327 (305 reqs/sec) | Rendering: 0.00231 (70%) | DB: 0.00070 (21%) | 200 OK [http://test.host/podcasts/1]
+  [4;35;1mSQL (0.000197)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000172)[0m   [0;1mBEGIN[0m
+
+
+Processing PodcastsController#update (for 0.0.0.0 at 2008-05-20 16:46:17) [PUT]
+  Session ID: 
+  Parameters: {"podcast"=>{}, "action"=>"update", "id"=>"1", "controller"=>"podcasts"}
+  [4;35;1mPodcast Load (0.000328)[0m   [0mSELECT * FROM `podcasts` WHERE (`podcasts`.`id` = 1) [0m
+  [4;36;1mPodcast Load (0.000373)[0m   [0;1mSELECT * FROM `podcasts` WHERE (podcasts.file_prefix = 'MyString' AND podcasts.id <> 1) LIMIT 1[0m
+  [4;35;1mPodcast Load (0.000324)[0m   [0mSELECT * FROM `podcasts` WHERE (podcasts.number = 1 AND podcasts.id <> 1) LIMIT 1[0m
+Rendering podcasts/edit
+Rendered podcasts/_form (0.00142)
+Completed in 0.00529 (189 reqs/sec) | Rendering: 0.00276 (52%) | DB: 0.00139 (26%) | 200 OK [http://test.host/podcasts/1?]
+  [4;36;1mSQL (0.000310)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000294)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000203)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000196)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000352)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000284)[0m   [0;1mSELECT count(*) AS count_all FROM `podcasts` [0m
+
+
+Processing PodcastsController#create (for 0.0.0.0 at 2008-05-20 16:46:26) [POST]
+  Session ID: 
+  Parameters: {"podcast"=>{}, "action"=>"create", "controller"=>"podcasts"}
+  [4;35;1mPodcast Load (0.000355)[0m   [0mSELECT * FROM `podcasts` WHERE (podcasts.file_prefix IS NULL) LIMIT 1[0m
+  [4;36;1mPodcast Load (0.000259)[0m   [0;1mSELECT * FROM `podcasts` WHERE (podcasts.number IS NULL) LIMIT 1[0m
+Rendering podcasts/new
+Rendered podcasts/_form (0.00282)
+Completed in 0.01080 (92 reqs/sec) | Rendering: 0.00501 (46%) | DB: 0.00194 (17%) | 200 OK [http://test.host/podcasts?]
+  [4;35;1mSQL (0.000271)[0m   [0mSELECT count(*) AS count_all FROM `podcasts` [0m
+  [4;36;1mSQL (0.000287)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000155)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000268)[0m   [0;1mSELECT count(*) AS count_all FROM `podcasts` [0m
+
+
+Processing PodcastsController#destroy (for 0.0.0.0 at 2008-05-20 16:46:26) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"1", "controller"=>"podcasts"}
+  [4;35;1mPodcast Load (0.000310)[0m   [0mSELECT * FROM `podcasts` WHERE (`podcasts`.`id` = 1) [0m
+  [4;36;1mPodcast Destroy (0.000251)[0m   [0;1m DELETE FROM `podcasts`
+ WHERE `id` = 1
+[0m
+Redirected to http://test.host/podcasts
+Completed in 0.00169 (590 reqs/sec) | DB: 0.00154 (91%) | 302 Found [http://test.host/podcasts/1]
+  [4;35;1mSQL (0.000228)[0m   [0mSELECT count(*) AS count_all FROM `podcasts` [0m
+  [4;36;1mSQL (0.000625)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000176)[0m   [0mBEGIN[0m
+
+
+Processing PodcastsController#edit (for 0.0.0.0 at 2008-05-20 16:46:26) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"podcasts"}
+  [4;36;1mPodcast Load (0.000320)[0m   [0;1mSELECT * FROM `podcasts` WHERE (`podcasts`.`id` = 1) [0m
+Rendering podcasts/edit
+Rendered podcasts/_form (0.00157)
+Completed in 0.00469 (213 reqs/sec) | Rendering: 0.00376 (80%) | DB: 0.00135 (28%) | 200 OK [http://test.host/podcasts/1/edit]
+  [4;35;1mSQL (0.000215)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000133)[0m   [0;1mBEGIN[0m
+
+
+Processing PodcastsController#index (for 0.0.0.0 at 2008-05-20 16:46:26) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"podcasts"}
+  [4;35;1mPodcast Load (0.000337)[0m   [0mSELECT * FROM `podcasts` [0m
+Rendering podcasts/index
+Completed in 0.00440 (227 reqs/sec) | Rendering: 0.00343 (77%) | DB: 0.00068 (15%) | 200 OK [http://test.host/podcasts]
+  [4;36;1mSQL (0.000523)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000173)[0m   [0mBEGIN[0m
+
+
+Processing PodcastsController#new (for 0.0.0.0 at 2008-05-20 16:46:26) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"podcasts"}
+Rendering podcasts/new
+Rendered podcasts/_form (0.00124)
+Completed in 0.00277 (360 reqs/sec) | Rendering: 0.00238 (85%) | DB: 0.00070 (25%) | 200 OK [http://test.host/podcasts/new]
+  [4;36;1mSQL (0.000206)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000174)[0m   [0mBEGIN[0m
+
+
+Processing PodcastsController#show (for 0.0.0.0 at 2008-05-20 16:46:26) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"podcasts"}
+  [4;36;1mPodcast Load (0.000384)[0m   [0;1mSELECT * FROM `podcasts` WHERE (`podcasts`.`id` = 1) [0m
+Rendering podcasts/show
+Completed in 0.00337 (296 reqs/sec) | Rendering: 0.00233 (69%) | DB: 0.00076 (22%) | 200 OK [http://test.host/podcasts/1]
+  [4;35;1mSQL (0.000205)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000174)[0m   [0;1mBEGIN[0m
+
+
+Processing PodcastsController#update (for 0.0.0.0 at 2008-05-20 16:46:26) [PUT]
+  Session ID: 
+  Parameters: {"podcast"=>{}, "action"=>"update", "id"=>"1", "controller"=>"podcasts"}
+  [4;35;1mPodcast Load (0.000280)[0m   [0mSELECT * FROM `podcasts` WHERE (`podcasts`.`id` = 1) [0m
+  [4;36;1mPodcast Load (0.000389)[0m   [0;1mSELECT * FROM `podcasts` WHERE (podcasts.file_prefix = 'MyString' AND podcasts.id <> 1) LIMIT 1[0m
+  [4;35;1mPodcast Load (0.000330)[0m   [0mSELECT * FROM `podcasts` WHERE (podcasts.number = 1 AND podcasts.id <> 1) LIMIT 1[0m
+Rendering podcasts/edit
+Rendered podcasts/_form (0.00142)
+Completed in 0.00526 (190 reqs/sec) | Rendering: 0.00276 (52%) | DB: 0.00138 (26%) | 200 OK [http://test.host/podcasts/1?]
+  [4;36;1mSQL (0.000223)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000310)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000226)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000231)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000168)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000163)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000313)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000106)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000227)[0m   [0;1mROLLBACK[0m
