@@ -1,22 +1,32 @@
-one:
-  id: 1
-  number: 1
-  title: MyString
-  description: MyText
-  author: MyString
-  tags: MyString
-  recorded_on: 2008-05-20
-  content: MyText
-  permalink: MyString
-  file_prefix: MyString
-two:
-  id: 2
-  number: 1
-  title: MyString
-  description: MyText
-  author: MyString
-  tags: MyString
-  recorded_on: 2008-05-20
-  content: MyText
-  permalink: MyString
-  file_prefix: MyString
+--- 
+podcasts_001: 
+  permalink: podcast-17-rpb
+  updated_at: 2008-05-20 19:43:04
+  title: Rails Podcast Brasil
+  number: "17"
+  file_prefix: rpb
+  recorded_on: "2008-05-20"
+  tags: ""
+  author: "F\xC3\xA1bio Akita & Carlos Brando"
+  id: "1"
+  description: "Extra! Extra! O Rails Podcast Brasil #17 est\xC3\xA1 no ar\xE2\x80\xA6 Extra! Extra! F\xC3\xA1bio Akita tem novidade bomb\xC3\xA1stica!\r\n\
+    \r\n\
+    Esta semana, em nosso podcast falamos sobre a tradu\xC3\xA7\xC3\xA3o do livro Why\xE2\x80\x99s (Poignant) Guide to Ruby para Portugu\xC3\xAAs, Rails on Rubinius, Rails 2.1, Piston e Braid, Git no Windows e no final uma noticia do F\xC3\xA1bio para a comunidade\xE2\x80\xA6 e quem diria que um dia algo assim seria noticia\xE2\x80\xA6"
+  content: "Extra! Extra! O Rails Podcast Brasil #17 est\xC3\xA1 no ar\xE2\x80\xA6 Extra! Extra! F\xC3\xA1bio Akita tem novidade bomb\xC3\xA1stica!\r\n\
+    \r\n\
+    Esta semana, em nosso podcast falamos sobre a tradu\xC3\xA7\xC3\xA3o do livro Why\xE2\x80\x99s (Poignant) Guide to Ruby para Portugu\xC3\xAAs, Rails on Rubinius, Rails 2.1, Piston e Braid, Git no Windows e no final uma noticia do F\xC3\xA1bio para a comunidade\xE2\x80\xA6 e quem diria que um dia algo assim seria noticia\xE2\x80\xA6"
+  created_at: 2008-05-20 19:17:23
+podcasts_002: 
+  permalink: podcast-16-rpb
+  updated_at: 2008-05-20 19:45:53
+  title: Rails Podcast Brasil
+  number: "16"
+  file_prefix: rpb16
+  recorded_on: "2008-04-20"
+  tags: akita
+  author: "F\xC3\xA1bio Akita & Carlos Brando"
+  id: "2"
+  description: "E com voc\xC3\xAAs mais um epis\xC3\xB3dio do Rails Podcast Brasil, o podcast mais completo da internet sobre Ruby on Rails e assuntos relacionados. Neste epis\xC3\xB3dio falamos durante uma hora sobre Edge Rails, Capistrano, Phusion, acts_as_state_machine, a pol\xC3\xAAmica Twitter (de novo) e mais\xE2\x80\xA6\r\n\
+    \r\n"
+  content: "E com voc\xC3\xAAs mais um epis\xC3\xB3dio do Rails Podcast Brasil, o podcast mais completo da internet sobre Ruby on Rails e assuntos relacionados. Neste epis\xC3\xB3dio falamos durante uma hora sobre Edge Rails, Capistrano, Phusion, acts_as_state_machine, a pol\xC3\xAAmica Twitter (de novo) e mais\xE2\x80\xA6"
+  created_at: 2008-05-20 19:45:53

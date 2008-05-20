@@ -1,4 +1,8 @@
 ActionController::Routing::Routes.draw do |map|
+  map.resources :users
+
+  map.resource :session
+
   
   map.namespace(:admin) do |admin|
     admin.resources :podcasts
@@ -37,4 +41,10 @@ ActionController::Routing::Routes.draw do |map|
   # Install the default routes as the lowest priority.
   map.connect ':controller/:action/:id'
   map.connect ':controller/:action/:id.:format'
+  
+  # map.signup  '/signup', :controller => 'users',   :action => 'new'
+  map.signin  '/login',  :controller => 'session', :action => 'new'
+  map.signout '/logout', :controller => 'session', :action => 'destroy'
+  
+  
 end
