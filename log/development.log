@@ -1,0 +1,115 @@
+  [4;36;1mSQL (0.000318)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.001623)[0m   [0mCREATE TABLE `schema_info` (version int(11))[0m
+  [4;36;1mSQL (0.000462)[0m   [0;1mINSERT INTO `schema_info` (version) VALUES(0)[0m
+  [4;35;1mSQL (0.000000)[0m   [0mMysql::Error: Table 'schema_info' already exists: CREATE TABLE `schema_info` (version int(11))[0m
+  [4;36;1mSQL (0.000344)[0m   [0;1mSELECT version FROM schema_info[0m
+Migrating to CreatePodcasts (1)
+  [4;35;1mSQL (0.000000)[0m   [0mMysql::Error: Unknown table 'podcasts': DROP TABLE `podcasts`[0m
+  [4;36;1mSQL (0.020534)[0m   [0;1mCREATE TABLE `podcasts` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `number` int(11) DEFAULT NULL, `title` varchar(255) DEFAULT NULL, `description` text DEFAULT NULL, `author` varchar(255) DEFAULT NULL, `tags` varchar(255) DEFAULT NULL, `recorded_on` date DEFAULT NULL, `content` text DEFAULT NULL, `permalink` varchar(255) DEFAULT NULL, `file_prefix` varchar(255) DEFAULT NULL, `created_at` datetime DEFAULT NULL, `updated_at` datetime DEFAULT NULL) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.000670)[0m   [0mUPDATE schema_info SET version = 1[0m
+  [4;36;1mSQL (0.000322)[0m   [0;1mSELECT * FROM schema_info[0m
+  [4;35;1mSQL (0.000525)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.002069)[0m   [0;1mSHOW FIELDS FROM `podcasts`[0m
+  [4;35;1mSQL (0.001764)[0m   [0mdescribe `podcasts`[0m
+  [4;36;1mSQL (0.000808)[0m   [0;1mSHOW KEYS FROM `podcasts`[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2008-05-20 16:43:34) [GET]
+  Session ID: 8ec8bb5afa7736da737157c2ddbc4fb8
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/podcast" with {:method=>:get}):
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1441:in `recognize_path'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1424:in `recognize'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:170:in `handle_request'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.4/bin/../lib/mongrel/rails.rb:76:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.4/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.4/bin/../lib/mongrel/rails.rb:74:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:159:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:158:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:158:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:268:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:268:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:268:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.4/lib/mongrel/configurator.rb:282:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.4/lib/mongrel/configurator.rb:281:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.4/lib/mongrel/configurator.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.4/bin/mongrel_rails:128:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.4/lib/mongrel/command.rb:212:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.4/bin/mongrel_rails:281
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    /Library/Ruby/Gems/1.8/gems/rails-2.0.2/lib/commands/servers/mongrel.rb:64
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    /Library/Ruby/Gems/1.8/gems/rails-2.0.2/lib/commands/server.rb:39
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+Rendering /Library/Ruby/Gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing PodcastsController#index (for 127.0.0.1 at 2008-05-20 16:43:37) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--71f11e3a0d05c78891e1438f9fa293fdd1eb0d68
+  Parameters: {"action"=>"index", "controller"=>"podcasts"}
+  [4;36;1mSQL (0.000315)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mPodcast Load (0.000434)[0m   [0mSELECT * FROM `podcasts` [0m
+Rendering podcasts/index
+Completed in 0.00867 (115 reqs/sec) | Rendering: 0.00271 (31%) | DB: 0.00075 (8%) | 200 OK [http://localhost/podcasts]
+
+
+Processing PodcastsController#new (for 127.0.0.1 at 2008-05-20 16:43:40) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--71f11e3a0d05c78891e1438f9fa293fdd1eb0d68
+  Parameters: {"action"=>"new", "controller"=>"podcasts"}
+  [4;36;1mPodcast Columns (0.002847)[0m   [0;1mSHOW FIELDS FROM `podcasts`[0m
+Rendering podcasts/new
+Rendered podcasts/_form (0.00641)
+Completed in 0.01849 (54 reqs/sec) | Rendering: 0.00969 (52%) | DB: 0.00285 (15%) | 200 OK [http://localhost/podcasts/new]
+
+
+Processing PodcastsController#new (for 127.0.0.1 at 2008-05-20 16:43:45) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZGRkODNkOGI2YThhYmNhNzZhOTJlZDQ5NjViNWI3%0AMjMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--bdffa472c2dd0c99b0b577d849bd461592144ad9
+  Parameters: {"action"=>"new", "controller"=>"podcasts"}
+  [4;35;1mPodcast Columns (0.002868)[0m   [0mSHOW FIELDS FROM `podcasts`[0m
+Rendering podcasts/new
+Rendered podcasts/_form (0.00371)
+Completed in 0.01442 (69 reqs/sec) | Rendering: 0.00590 (40%) | DB: 0.00287 (19%) | 200 OK [http://localhost/podcasts/new]
+  [4;36;1mSQL (0.000311)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000324)[0m   [0mSELECT * FROM schema_info[0m
+  [4;36;1mSQL (0.000378)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.002777)[0m   [0mSHOW FIELDS FROM `podcasts`[0m
+  [4;36;1mSQL (0.002130)[0m   [0;1mdescribe `podcasts`[0m
+  [4;35;1mSQL (0.000425)[0m   [0mSHOW KEYS FROM `podcasts`[0m
+  [4;36;1mSQL (0.000161)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000564)[0m   [0mDROP DATABASE IF EXISTS `podcast_test`[0m
+  [4;36;1mSQL (0.000488)[0m   [0;1mCREATE DATABASE `podcast_test` DEFAULT CHARACTER SET `utf8`[0m
+  [4;35;1mSQL (0.000184)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: Unknown table 'podcasts': DROP TABLE `podcasts`[0m
+  [4;35;1mSQL (0.002971)[0m   [0mCREATE TABLE `podcasts` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `number` int(11) DEFAULT NULL, `title` varchar(255) DEFAULT NULL, `description` text DEFAULT NULL, `author` varchar(255) DEFAULT NULL, `tags` varchar(255) DEFAULT NULL, `recorded_on` date DEFAULT NULL, `content` text DEFAULT NULL, `permalink` varchar(255) DEFAULT NULL, `file_prefix` varchar(255) DEFAULT NULL, `created_at` datetime DEFAULT NULL, `updated_at` datetime DEFAULT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.001917)[0m   [0;1mCREATE TABLE `schema_info` (version int(11))[0m
+  [4;35;1mSQL (0.000676)[0m   [0mINSERT INTO `schema_info` (version) VALUES(0)[0m
+  [4;36;1mSQL (0.001318)[0m   [0;1mSHOW FIELDS FROM `schema_info`[0m
+  [4;35;1mSQL (0.000354)[0m   [0mUPDATE schema_info SET version = 1[0m
+
+
+Processing PodcastsController#index (for 127.0.0.1 at 2008-05-20 16:49:18) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZGRkODNkOGI2YThhYmNhNzZhOTJlZDQ5NjViNWI3%0AMjMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--bdffa472c2dd0c99b0b577d849bd461592144ad9
+  Parameters: {"action"=>"index", "controller"=>"admin/podcasts"}
+  [4;36;1mSQL (0.000296)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mPodcast Load (0.000449)[0m   [0mSELECT * FROM `podcasts` [0m
+Rendering admin/podcasts/index
+Completed in 0.00913 (109 reqs/sec) | Rendering: 0.00264 (28%) | DB: 0.00075 (8%) | 200 OK [http://localhost/admin/podcasts]
