@@ -56,4 +56,14 @@ Rails::Initializer.run do |config|
 
   # Make Active Record use UTC-base instead of local time
   # config.active_record.default_timezone = :utc
+  
+  
+  
 end
+
+require "mp3info"
+require 'find'
+
+require 'markdown_on_rails'
+ActionView::Base.register_template_handler('text', MarkdownOnRails)
+MarkdownOnRails::map_headings_down_by 0

@@ -1,0 +1,96 @@
+8
+
+dir
+2256
+https://secure.svnrepository.com/s_vinicius/improveit/site/trunk/vendor/plugins/markdown_on_rails
+https://secure.svnrepository.com/s_vinicius/improveit
+
+
+
+2008-03-14T00:24:10.518348Z
+1583
+tapajos
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+a8d1b337-e71d-0410-ac3d-90a5f2836e2e
+
+test
+dir
+
+Rakefile
+file
+
+
+
+
+2008-05-05T11:51:25.000000Z
+5a7a94659dd9dd0031b679d7ed4a556e
+2008-03-14T00:24:10.518348Z
+1583
+tapajos
+
+lib
+dir
+
+MIT-LICENCE
+file
+
+
+
+
+2008-05-05T11:51:25.000000Z
+9dc7309f6c9b8c6a9ad8ce6ce42fae98
+2008-03-14T00:24:10.518348Z
+1583
+tapajos
+
+markdown_on_rails-0.2.0.gem
+file
+
+
+
+
+2008-05-05T11:51:25.000000Z
+c162c99c6f6b10563ad38dd68a86ac5e
+2008-03-14T00:24:10.518348Z
+1583
+tapajos
+has-props
+
+markdown_on_rails.gemspec
+file
+
+
+
+
+2008-05-05T11:51:25.000000Z
+1c77ab70344d68d567836956f1439267
+2008-03-14T00:24:10.518348Z
+1583
+tapajos
+
+markdown_on_rails-0.3.0.gem
+file
+
+
+
+
+2008-05-05T11:51:25.000000Z
+8251c82d13bcfbacaf2d2bcdf2f6d642
+2008-03-14T00:24:10.518348Z
+1583
+tapajos
+has-props
+

@@ -4,7 +4,7 @@ podcasts_001:
   updated_at: 2008-05-20 19:43:04
   title: Rails Podcast Brasil
   number: "17"
-  file_prefix: rpb
+  file_prefix: podcast-de-exemplo
   recorded_on: "2008-05-20"
   tags: ""
   author: "F\xC3\xA1bio Akita & Carlos Brando"
@@ -26,6 +26,20 @@ podcasts_002:
   tags: akita
   author: "F\xC3\xA1bio Akita & Carlos Brando"
   id: "2"
+  description: "E com voc\xC3\xAAs mais um epis\xC3\xB3dio do Rails Podcast Brasil, o podcast mais completo da internet sobre Ruby on Rails e assuntos relacionados. Neste epis\xC3\xB3dio falamos durante uma hora sobre Edge Rails, Capistrano, Phusion, acts_as_state_machine, a pol\xC3\xAAmica Twitter (de novo) e mais\xE2\x80\xA6\r\n\
+    \r\n"
+  content: "E com voc\xC3\xAAs mais um epis\xC3\xB3dio do Rails Podcast Brasil, o podcast mais completo da internet sobre Ruby on Rails e assuntos relacionados. Neste epis\xC3\xB3dio falamos durante uma hora sobre Edge Rails, Capistrano, Phusion, acts_as_state_machine, a pol\xC3\xAAmica Twitter (de novo) e mais\xE2\x80\xA6"
+  created_at: 2008-05-20 19:45:53
+podcasts_003: 
+  permalink: podcast-15-rpb
+  updated_at: 2008-04-20 19:45:53
+  title: Rails Podcast Brasil
+  number: "15"
+  file_prefix: rpb15
+  recorded_on: "2008-03-20"
+  tags: akita
+  author: "F\xC3\xA1bio Akita & Carlos Brando"
+  id: "3"
   description: "E com voc\xC3\xAAs mais um epis\xC3\xB3dio do Rails Podcast Brasil, o podcast mais completo da internet sobre Ruby on Rails e assuntos relacionados. Neste epis\xC3\xB3dio falamos durante uma hora sobre Edge Rails, Capistrano, Phusion, acts_as_state_machine, a pol\xC3\xAAmica Twitter (de novo) e mais\xE2\x80\xA6\r\n\
     \r\n"
   content: "E com voc\xC3\xAAs mais um epis\xC3\xB3dio do Rails Podcast Brasil, o podcast mais completo da internet sobre Ruby on Rails e assuntos relacionados. Neste epis\xC3\xB3dio falamos durante uma hora sobre Edge Rails, Capistrano, Phusion, acts_as_state_machine, a pol\xC3\xAAmica Twitter (de novo) e mais\xE2\x80\xA6"

@@ -1,0 +1,12 @@
+<h2><%= "Podcast #{@podcast.number} - #{@podcast.title} (#{@podcast.recording_date})"%></h2>
+
+<ul id="podcast_files">
+	<% @podcast.files.each do |file| %>
+	<li>
+		<%=part(file[:file_name])%> (<%= file[:size] %> - <%= format_duration(file[:duration]) %>)
+		<%= link_to image_tag("mp3_icon.jpg", :border => "none"), "/podcasts/#{file[:file_name]}" %> <%= link_to image_tag("zip-icon.jpg", :border => "none"), "/podcasts/#{file[:zip_file_name]}" %>
+	</li>
+	<% end %>
+</ul>
+
+<%= @podcast.content if @podcast.content %>
