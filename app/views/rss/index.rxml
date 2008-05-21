@@ -1,0 +1,40 @@
+summary = "resumo"
+
+
+xml.rss({:version => 2.0, "xmlns:itunes"=>"http://www.itunes.com/dtds/podcast-1.0.dtd", :content_type => "Mime::RSS"}) do
+  xml.channel do
+    xml.tag!("itunes:subtitle", "")
+    xml.tag!("itunes:summary","#{summary}")
+    xml.tag!("itunes:category", :text=>"Technology")
+    xml.tag!("itunes:keywords","")
+    xml.tag!("itunes:author", "")
+    xml.tag!("itunes:explicit", "no")
+    xml.tag!("itunes:image", "")
+    xml.tag!("itunes:owner>") {
+      xml.tag!("itunes:email", "")
+      xml.tag!("itunes:name>","")
+    }
+    xml.title("Rails Brasil Podcast")
+    xml.language("PT")
+    xml.ttl("60")
+    xml.link("")
+    xml.copyright("")
+    xml.description("#{summary}")
+    @podcasts.each do |podcast|
+      podcast.files.each do |file|
+        xml.item do
+          xml.tag!("itunes:keywords", "#{podcast.tags}")
+          link = "http://podcasturl/podcasts/#{file[:file_name]}"
+          xml.tag!("enclosure", :url=> link, :type => "audio/mpeg")
+          xml.tag!("itunes:duration", "#{file[:absolute_duration]}")
+          xml.guid(link)
+          xml.pubDate("#{podcast.recording_date_full}")
+          xml.title("#{podcast.number} - #{podcast.title}#{file_part(file[:file_name])}")
+          xml.author("#{podcast.author}")
+          xml.description("#{podcast.description}")
+          xml.link(link)
+        end
+      end
+    end
+  end
+end

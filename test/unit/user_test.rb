@@ -48,11 +48,11 @@ class UserTest < Test::Unit::TestCase
 
   def test_should_not_rehash_password
     users(:quentin).update_attributes(:login => 'quentin2')
-    assert_equal users(:quentin), User.authenticate('quentin2', 'monkey')
+    assert_equal users(:quentin), User.authenticate('quentin2', '123456')
   end
 
   def test_should_authenticate_user
-    assert_equal users(:quentin), User.authenticate('quentin', 'monkey')
+    assert_equal users(:quentin), User.authenticate('quentin', '123456')
   end
 
   def test_should_set_remember_token
