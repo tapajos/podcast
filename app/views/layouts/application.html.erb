@@ -5,10 +5,11 @@
     <title>Ruby on Rails Podcast</title>
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
 
-    <link href='http://feeds.feedburner.com/rubyonrailspodcast' rel='alternate' title='RSS' type='application/rss+xml' />
+    <!-- <link href='http://feeds.feedburner.com/rubyonrailspodcast' rel='alternate' title='RSS' type='application/rss+xml' /> -->
 
     <%= stylesheet_link_tag 'application' %>
     <%= javascript_include_tag :defaults %>
+	<%= auto_discovery_link_tag(:rss, {:controller=> "rss"}, {:title=>"RSS Podcast"})%>
     
   </head>
   <body>

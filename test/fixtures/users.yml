@@ -1,12 +1,29 @@
---- 
 users_001: 
-  salt: af8c9d16db3680b07a33a2e0aabc1782f5a036bf
-  name: ""
-  updated_at: 2008-05-20 19:40:36
-  crypted_password: f35f68794e1d29e2c6bebe093d898787f1a7a508
-  remember_token_expires_at: 
-  id: "1"
-  remember_token: 
-  login: admin
-  created_at: 2008-05-20 19:40:36
-  email: admin@podcast.com
+    salt: af8c9d16db3680b07a33a2e0aabc1782f5a036bf
+    name: ""
+    updated_at: 2008-05-20 19:40:36
+    crypted_password: f35f68794e1d29e2c6bebe093d898787f1a7a508
+    remember_token_expires_at: 
+    id: 3
+    remember_token: 
+    login: admin
+    created_at: 2008-05-20 19:40:36
+    email: admin@podcast.com
+  
+quentin:
+    id: 1
+    login: quentin
+    email: quentin@example.com
+    salt: af8c9d16db3680b07a33a2e0aabc1782f5a036bf
+    crypted_password: f35f68794e1d29e2c6bebe093d898787f1a7a508
+    #crypted_password: "ce2/iFrNtQ8=\n" # quentin, use only if you're using 2-way encryption
+    created_at: <%= 5.days.ago.to_s :db %>
+    # activated_at: <%= 5.days.ago.to_s :db %> # only if you're activating new signups
+aaron:
+    id: 2
+    login: aaron
+    email: aaron@example.com
+    salt: af8c9d16db3680b07a33a2e0aabc1782f5a036bf
+    crypted_password: f35f68794e1d29e2c6bebe093d898787f1a7a508
+    # activation_code: aaronscode # only if you're activating new signups
+    created_at: <%= 1.days.ago.to_s :db %>
