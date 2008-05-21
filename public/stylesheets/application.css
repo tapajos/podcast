@@ -88,3 +88,15 @@ div#footer {
 ul#podcasts {
   margin-top: 15px;
 }
+
+#podcast_files li {
+	border-bottom: 1px none;
+}
+
+#podcast_files {
+  padding-top:	10px;
+  border-bottom: 1px dotted #999;
+  padding-bottom: 20px;
+}
+
+

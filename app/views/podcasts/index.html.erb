@@ -1,0 +1,7 @@
+<ul id="podcasts">
+  <%- @podcasts.each do |podcast|%>
+	<li><%= link_to "#{h podcast.number.to_s} - #{podcast.title}", podcast_path(podcast)  %>
+		<p><%= h podcast.description %></p>
+	</li>
+  <% end %>
+</ul>
