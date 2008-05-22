@@ -2,10 +2,17 @@
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html>
   <head>
-    <title>Ruby on Rails Podcast</title>
-    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-
-    <!-- <link href='http://feeds.feedburner.com/rubyonrailspodcast' rel='alternate' title='RSS' type='application/rss+xml' /> -->
+	<title><%=page_title @title%></title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="keywords" content="<%=@keywords%>"/>
+	<meta name="description" content="<%=@description%>"/>
+	<meta http-equiv="content-Language" content="pt-BR"/>
+	<meta name="verify-v1" content="vHdFFEns21nKQBwfT53uAT8qYMOyJwItHhj7CNNJ7kM=" />
+	<meta name="copyright" content="&copy; 2008" />
+	<meta name="author" content="Marcos Tapajós" />
+	<meta name="distribution" content="Global" />
+	<meta name="rating" content="general" />
+	<meta name="robots" content="all" />
 
     <%= stylesheet_link_tag 'application' %>
     <%= javascript_include_tag :defaults %>

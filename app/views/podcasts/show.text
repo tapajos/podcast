@@ -1,3 +1,11 @@
+<% 
+  @title = "#{@podcast.title} #{@podcast.number}"
+  @keywords = "Podcasts Ruby on Rails Brasil #{@podcast.tags}"
+  @description = "Série de podcasts sobre Ruby on Rails e sobre as principais novidades na área de tecnologia da informação" 
+  @last_updated = @podcast.recording_date
+%>
+
+
 <h2><%= "Podcast #{@podcast.number} - #{@podcast.title} (#{@podcast.recording_date})"%></h2>
 
 <ul id="podcast_files">
