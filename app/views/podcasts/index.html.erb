@@ -1,3 +1,10 @@
+<% 
+  @title = "Seja bem vindo" 
+  @keywords = "Podcasts Ruby on Rails Brasil"
+  @description = "Série de podcasts sobre Ruby on Rails e sobre as principais novidades na área de tecnologia da informação" 
+  @last_updated = '22/05/2008'
+%>
+
 <ul id="podcasts">
   <%- @podcasts.each do |podcast|%>
 	<li><%= link_to "#{h podcast.number.to_s} - #{podcast.title}", podcast_path(podcast)  %>
