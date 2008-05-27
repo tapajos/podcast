@@ -10,6 +10,12 @@ class Podcast < ActiveRecord::Base
   validates_uniqueness_of :file_prefix
   validates_uniqueness_of :number
   
+  def content
+    result = read_attribute(:content)
+    return description if !result || result.empty?
+    result
+  end
+  
   def do_permalink
     self.permalink = "podcast-#{number}-#{permalink}"
   end

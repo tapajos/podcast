@@ -5,10 +5,15 @@
   @last_updated = '22/05/2008'
 %>
 
-<ul id="podcasts">
-  <%- @podcasts.each do |podcast|%>
-	<li><%= link_to "#{h podcast.number.to_s} - #{podcast.title}", podcast_permalink_path(podcast.permalink)  %>
-		<p><%= BlueCloth.new(h(podcast.description)).to_html %></p>
-	</li>
-  <% end %>
-</ul>
+<%- @podcasts.each do |podcast|%>
+	<div class="sub">
+		<h1>#<%=h podcast.number%><br /><span><%=podcast.recording_date%></span></h1>
+	</div>
+	<div class="main">
+	  <p>
+	    <%= BlueCloth.new(h(podcast.description)).to_html %>
+    	<%= link_to "Mais detalhes", podcast_permalink_path(podcast.permalink)%>
+	  </p>
+	</div>
+	<div class="clearall">&nbsp;</div>
+<% end %>
