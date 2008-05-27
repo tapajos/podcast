@@ -7,7 +7,7 @@
 
 <ul id="podcasts">
   <%- @podcasts.each do |podcast|%>
-	<li><%= link_to "#{h podcast.number.to_s} - #{podcast.title}", podcast_path(podcast)  %>
+	<li><%= link_to "#{h podcast.number.to_s} - #{podcast.title}", podcast_permalink_path(podcast.permalink)  %>
 		<p><%= BlueCloth.new(h(podcast.description)).to_html %></p>
 	</li>
   <% end %>
