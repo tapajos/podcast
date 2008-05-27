@@ -17,4 +17,4 @@
 	<% end %>
 </ul>
 
-<%= @podcast.content if @podcast.content %>
+<%= @podcast.content %>
