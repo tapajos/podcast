@@ -14,5 +14,5 @@ production:
   adapter: mysql
   database: podcasry_podcast
   username: podcasry_podcast
-  password: lf8NtPmZX<%3
+  password: geap-che-oft-a
   host: localhost
