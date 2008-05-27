@@ -24,7 +24,7 @@ xml.rss({:version => 2.0, "xmlns:itunes"=>"http://www.itunes.com/dtds/podcast-1.
       podcast.files.each do |file|
         xml.item do
           xml.tag!("itunes:keywords", "#{podcast.tags}")
-          link = "http://podcasturl/podcasts/#{file[:file_name]}"
+          link = "#{DOWNLOAD_PATH}/#{file[:file_name]}"
           xml.tag!("enclosure", :url=> link, :type => "audio/mpeg")
           xml.tag!("itunes:duration", "#{file[:absolute_duration]}")
           xml.guid(link)
