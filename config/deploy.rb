@@ -4,7 +4,6 @@ set :application, "podcast"
 default_run_options[:pty] = true
 set :repository,  "git@github.com:vanpelt/rails-app.git"
 set :scm, "git"
-# set :scm_passphrase, "p00p" #This is your custom users password
 set :deploy_to, "/home/#{user}/railsapp/#{application}"
 set :ssh_options, { :forward_agent => true }
 
