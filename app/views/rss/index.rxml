@@ -1,13 +1,13 @@
-summary = "resumo"
+summary = "As últimas novidades, discussões de notícias e tudo sobre o Ruby on Rails e sua comunidade, aqui, no Rails Podcast Brasil."
 
 
 xml.rss({:version => 2.0, "xmlns:itunes"=>"http://www.itunes.com/dtds/podcast-1.0.dtd", :content_type => "Mime::RSS"}) do
   xml.channel do
-    xml.tag!("itunes:subtitle", "")
+    xml.tag!("itunes:subtitle", "Rails Podcast Brasil")
     xml.tag!("itunes:summary","#{summary}")
     xml.tag!("itunes:category", :text=>"Technology")
-    xml.tag!("itunes:keywords","")
-    xml.tag!("itunes:author", "")
+    xml.tag!("itunes:keywords","Rails Podcast Brasil")
+    xml.tag!("itunes:author", "Fábio Akita & Carlos Brando")
     xml.tag!("itunes:explicit", "no")
     xml.tag!("itunes:image", "")
     xml.tag!("itunes:owner>") {
@@ -17,8 +17,8 @@ xml.rss({:version => 2.0, "xmlns:itunes"=>"http://www.itunes.com/dtds/podcast-1.
     xml.title("Rails Brasil Podcast")
     xml.language("PT")
     xml.ttl("60")
-    xml.link("")
-    xml.copyright("")
+    xml.link("http://podcast.rubyonrails.pro.br")
+    xml.copyright("Fábio Akita & Carlos Brando")
     xml.description("#{summary}")
     @podcasts.each do |podcast|
       podcast.files.each do |file|
