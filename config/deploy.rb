@@ -15,7 +15,6 @@ namespace :deploy do
 end
 
 task :after_update_code, :roles => :app do
-  run "ln -s #{deploy_to}/shared/awstats/html #{release_path}/public/awstats"
   run "cd #{release_path} && rake db:migrate RAILS_ENV=production"
   run "chmod 755 #{release_path}/public -R"
   run "rm -Rf #{release_path}/public/podcasts"
