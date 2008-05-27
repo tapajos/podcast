@@ -38,6 +38,8 @@ ActionController::Routing::Routes.draw do |map|
   
   map.podcast           'podcast/show/:id',              :controller => 'podcasts', :action => "show"
   
+  map.podcast_permalink 'podcast/:action',                :controller => "podcasts"
+  
   # See how all your routes lay out with "rake routes"
 
   # Install the default routes as the lowest priority.
