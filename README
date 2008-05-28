@@ -1,4 +1,1 @@
-1 - Criar os bancos
-2 - rake db:migrate
-3 - rake db:fixtures:load
-4 - rake db:test:clone
+Rails Podcast Brasil
