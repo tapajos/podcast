@@ -9,7 +9,7 @@ set :ssh_options, { :forward_agent => true }
 
 namespace :deploy do
   task :restart, :roles => :app do
-#    sudo "#{lsws_cmd} restart"
+    send(:run, "cd #{deploy_to}/#{current_dir} && mongrel_rails stop && sleep 1s && rm -f log/mongrel.pid && mongrel_rails start -e production -p 12003 -d")
   end
 end
 
@@ -17,7 +17,7 @@ task :after_update_code, :roles => :app do
   run "cd #{release_path} && rake db:migrate RAILS_ENV=production"
   run "chmod 755 #{release_path}/public -R"
   run "rm -Rf #{release_path}/public/podcasts"
-  run "ln -s #{deploy_to}/shared/podcasts #{release_path}/public/podcasts"
+  run "ln -s /home/#{user}/download.podcast.rubyonrails.pro.br #{release_path}/public/podcasts"
   
   count = (self[:keep_releases] || 10).to_i
   if count >= releases.length
