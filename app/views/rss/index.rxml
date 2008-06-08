@@ -31,7 +31,7 @@ xml.rss({:version => 2.0, "xmlns:itunes"=>"http://www.itunes.com/dtds/podcast-1.
           xml.pubDate("#{podcast.recording_date_full}")
           xml.title("#{podcast.number} - #{podcast.title}#{file_part(file[:file_name])}")
           xml.author("#{podcast.author}")
-          xml.description("#{podcast.description}")
+          xml.description( BlueCloth.new(h(podcast.description)).to_html)
           xml.link(link)
         end
       end
