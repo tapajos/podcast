@@ -17,4 +17,6 @@
 	<% end %>
 </ul>
 
-<%= @podcast.content %>
+<div id="podcast_content">
+	<%= @podcast.content %>
+</div>
