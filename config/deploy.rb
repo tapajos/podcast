@@ -1,11 +1,25 @@
+def get_next_release
+  list = `svn list #{svnfulladdress}/branches | grep RB-`
+  list_numbers = []
+  list.each do |item|
+    item =~ /RB-([0-9].*)\//
+    list_numbers << $1.to_i
+  end
+  next_release = list_numbers.sort.last.to_i + 1
+  system "svn copy -m \"Creating release branch\" #{svnfulladdress}/trunk #{svnfulladdress}/branches/RB-#{next_release}"
+  system "svn copy -m \"Creating tag release\" #{svnfulladdress}/branches/RB-#{next_release} #{svnfulladdress}/tags/REL-#{next_release}"
+  next_release 
+end
+
+
 set :user, "podcasry"
 set :runner, user
 set :application, "podcast"
 default_run_options[:pty] = true
-set :repository,  "git@github.com:vanpelt/rails-app.git"
-set :scm, "git"
 set :deploy_to, "/home/#{user}/railsapp/#{application}"
-set :ssh_options, { :forward_agent => true }
+set :svnfulladdress, "https://secure.svnrepository.com/s_tapajos/podcast"
+set :deploy_via, :export
+set :repository,  "#{svnfulladdress}/tags/REL-#{get_next_release} --username \"site_podcast\" --password \"wniv634py983.sd\""
 
 namespace :deploy do
   task :restart, :roles => :app do
