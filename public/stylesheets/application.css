@@ -1,9 +1,5 @@
-ul {
+#podcast_files {
   list-style-type:  none;
-}
-
-#podcast_content ul {
-  list-style-type:  disc;
 }
 
 #podcast_files li {
