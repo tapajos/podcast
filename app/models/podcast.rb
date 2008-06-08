@@ -17,7 +17,11 @@ class Podcast < ActiveRecord::Base
   end
   
   def do_permalink
-    self.permalink = "podcast-#{number}-#{permalink}"
+    if self.permalink =~ /podcast-(.*)-(.*)/
+      self.permalink = "podcast-#{number}-#{$2}" 
+    else
+      self.permalink = "podcast-#{number}-#{permalink}" 
+    end
   end
   
   def recording_date
