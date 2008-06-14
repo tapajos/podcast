@@ -110,7 +110,6 @@ namespace :scm do
   task :commit do
     Rake::Task["svn:commit"].invoke if SCM == 'svn' 
     if SCM == 'git' 
-      Rake::Task["git:commit"].invoke 
       Rake::Task["git:push"].invoke 
     end
     Rake::Task["git_with_svn:dcommit"].invoke if SCM == 'git_with_svn'
