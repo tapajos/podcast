@@ -4,8 +4,8 @@ ENV['SKIP_TASKS'] = %w(
                          spec:helpers
                          spec:controllers
                          spec:views
-                         test:rcov:units
-                         test:rcov:functionals
+                         test:rcov:units:verify
+                         test:rcov:functionals:verify
                          spec:rcov
                          spec:rcov:verify
                          test:selenium:server:start
