@@ -1,9 +1,12 @@
 class PodcastsController < ApplicationController
-  
+  caches_page :index
+  cache_sweeper :podcast_sweeper  , :only => [:index]
+
+
   def method_missing(name, *args)
     @podcast = Podcast.find_by_permalink(name.to_s)
     if @podcast
-      render :action => "show"
+      render :action => "show", :podcast => @podcast
     else
       raise ::ActionController::UnknownAction
     end
@@ -15,6 +18,6 @@ class PodcastsController < ApplicationController
   end
   
   def show
-    @podcast = Podcast.find(params[:id])
+ 
   end
 end

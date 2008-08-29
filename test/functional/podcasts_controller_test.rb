@@ -9,11 +9,12 @@ class PodcastsControllerTest < ActionController::TestCase
     get :index
     assert_equal all_podcasts, assigns(:podcasts)
   end
-  
-  def test_show
-    get :show, :id => 1
-    assert_equal 1, assigns(:podcast).id
-  end
+  # Não necessário após refatorações 
+  #
+  #def test_show
+   # get :show, :id => 1
+    #assert_equal 1, assigns(:podcast).id
+  #end
   
   def test_method_missing_when_permalink_is_not_found
     assert_raise(ActionController::UnknownAction) { get :not_found }
