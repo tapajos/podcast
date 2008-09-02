@@ -1,0 +1,89 @@
+##  Benchmarking de cache, do Rails Podcast Brasil.
+##  Página Principal, sem cache!
+httperf --client=0/1 --server=localhost --port=3000 --uri=/podcasts --send-buffer=4096 --recv-buffer=16384 --num-conns=5000 --num-calls=1
+Maximum connect burst length: 1
+
+Total: connections 5000 requests 5000 replies 5000 test-duration 96.744 s
+
+Request rate: 51.7 req/s (19.3 ms/req)
+Request size [B]: 68.0
+
+Reply rate [replies/s]: min 43.0 avg 51.7 max 58.4 stddev 4.4 (19 samples)
+Reply time [ms]: response 18.9 transfer 0.0
+Reply size [B]: header 468.0 content 5312.0 footer 0.0 (total 5780.0)
+Reply status: 1xx=0 2xx=5000 3xx=0 4xx=0 5xx=0
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+##
+## Cacheamento da página principal
+##
+
+httperf --client=0/1 --server=localhost --port=3000 --uri=/podcasts --send-buffer=4096 --recv-buffer=16384 --num-conns=5000 --num-calls=1
+Maximum connect burst length: 1
+
+Total: connections 5000 requests 5000 replies 5000 test-duration 9.795 s
+
+Request rate: 510.5 req/s (2.0 ms/req)
+Request size [B]: 68.0
+
+Reply rate [replies/s]: min 502.4 avg 502.4 max 502.4 stddev 0.0 (1 samples)
+Reply time [ms]: response 1.8 transfer 0.0
+Reply size [B]: header 197.0 content 5312.0 footer 0.0 (total 5509.0)
+Reply status: 1xx=0 2xx=5000 3xx=0 4xx=0 5xx=0
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+##
+## Página de cada podcast Individual, sem cache e sem refatoração!
+##
+
+httperf --client=0/1 --server=localhost --port=3000 --uri=/podcast/podcast-14-teste --send-buffer=4096 --recv-buffer=16384 --num-conns=1000 --num-calls=1
+Maximum connect burst length: 1
+
+Total: connections 1000 requests 1000 replies 1000 test-duration 20.995 s
+
+Request rate: 47.6 req/s (21.0 ms/req)
+Request size [B]: 84.0
+
+Reply rate [replies/s]: min 45.4 avg 47.5 max 50.4 stddev 2.5 (4 samples)
+Reply time [ms]: response 20.0 transfer 0.0
+Reply size [B]: header 468.0 content 4714.0 footer 0.0 (total 5182.0)
+Reply status: 1xx=0 2xx=1000 3xx=0 4xx=0 5xx=0
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+###
+### Página de cada podcast Individual, refatorado!
+###
+httperf --client=0/1 --server=localhost --port=3000 --uri=/podcast/podcast-14-teste --send-buffer=4096 --recv-buffer=16384 --num-conns=1000 --num-calls=1
+Maximum connect burst length: 1
+
+Total: connections 1000 requests 1000 replies 1000 test-duration 16.439 s
+
+Reply rate [replies/s]: min 59.4 avg 60.3 max 60.8 stddev 0.8 (3 samples)
+Reply time [ms]: response 16.3 transfer 0.0
+Reply size [B]: header 468.0 content 4714.0 footer 0.0 (total 5182.0)
+Reply status: 1xx=0 2xx=1000 3xx=0 4xx=0 5xx=0
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+###
+### Página de cada podcast, refatorado e com cache!
+###
+httperf --client=0/1 --server=localhost --port=3000 --uri=/podcast/podcast-14-teste --send-buffer=4096 --recv-buffer=16384 --num-conns=7000 --num-calls=1
+Maximum connect burst length: 1
+
+Total: connections 7000 requests 7000 replies 7000 test-duration 11.737 s
+
+Reply rate [replies/s]: min 568.8 avg 592.9 max 617.0 stddev 34.1 (2 samples)
+Reply time [ms]: response 1.6 transfer 0.0
+Reply size [B]: header 197.0 content 4714.0 footer 0.0 (total 4911.0)
+Reply status: 1xx=0 2xx=7000 3xx=0 4xx=0 5xx=0
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0

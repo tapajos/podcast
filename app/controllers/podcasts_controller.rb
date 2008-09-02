@@ -7,6 +7,7 @@ class PodcastsController < ApplicationController
     @podcast = Podcast.find_by_permalink(name.to_s)
     if @podcast
       render :action => "show", :podcast => @podcast
+      cache_page if ActionController::Base.perform_caching
     else
       render :action => "notfound"
     end
@@ -18,7 +19,7 @@ class PodcastsController < ApplicationController
   end
   
   def show
- 
+     
   end
 
   def notfound
