@@ -8,7 +8,7 @@ class PodcastsController < ApplicationController
     if @podcast
       render :action => "show", :podcast => @podcast
     else
-      raise ::ActionController::UnknownAction
+      render :action => "notfound"
     end
   end
   
@@ -20,4 +20,9 @@ class PodcastsController < ApplicationController
   def show
  
   end
+
+  def notfound
+  
+  end
+
 end
