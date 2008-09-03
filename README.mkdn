@@ -10,7 +10,7 @@ Esse é o sistema de podcasts utilizado no Rails Brasil Podcast. Trata-se de um 
 
 ## Achei um BUG, o que eu faço?
 
-Por favor, ne avise!
+Por favor, me avise!
 
 ## Quem está por traz disso tudo?
 
