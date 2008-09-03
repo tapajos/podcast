@@ -14,3 +14,19 @@ ENV['SKIP_TASKS'] = %w(
                     ).join(',')
                     
 ENV['SCM'] = 'git'
+
+def integration_sweeper
+  sh "script/integration_sweeper"
+end
+
+ENV['SCM'] = 'git'
+
+namespace :scm do
+  namespace :status do
+    namespace :check do
+      task :before do
+        integration_sweeper
+      end
+    end
+  end
+end
