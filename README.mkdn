@@ -1,1 +1,26 @@
-Sistema do Rails Podcast Brasil
+# Podcast
+
+## O que é?
+
+Esse é o sistema de podcasts utilizado no Rails Brasil Podcast. Trata-se de um sistema bem simples, capaz de disponibilizar facilmente seus podcasts, com RSS compatível com o iTunes e suporte a múltiplas partes.
+
+## Dependências
+
+1. ruby-mp3info
+
+## Achei um BUG, o que eu faço?
+
+Por favor, ne avise!
+
+## Quem está por traz disso tudo?
+
+1. [Marcos Tapajós][mt] (Autor)
+* [Thiago Pradi][tp] (Desenvolvedor)
+
+
+## Duvidas ?
+
+As duvidas podem ser enviadas diretamente a um dos desenvolvedores.
+
+[mt]:	http://www.improveit.com.br/tapajos
+[tp]: http://thiagopradi.net
