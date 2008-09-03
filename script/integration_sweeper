@@ -1,0 +1,16 @@
+#!/usr/bin/env ruby
+require 'find'
+require 'fileutils'
+
+system "#{File.dirname(__FILE__)}/cache_sweeper"
+
+js_path = File.expand_path(File.dirname(__FILE__) + "/../public/javascripts")
+
+Find.find(js_path) do |file_name|
+  file_name_without_path = file_name.gsub(Regexp.new(js_path), '')
+  if !File.directory?(file_name) && !file_name.include?(".svn") && file_name_without_path =~ /^\/all.*\.js$/ 
+    FileUtils.rm_rf("#{js_path}#{file_name_without_path}")
+    p "Removed: #{js_path}#{file_name_without_path}"
+  end
+end
+

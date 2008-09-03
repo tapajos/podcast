@@ -1,0 +1,38 @@
+#!/usr/bin/env ruby
+require 'find'
+require 'fileutils'
+
+cached_list = []
+
+routes = `rake routes`
+routes.each do |full_route|
+  cached_list << $1 if full_route =~ /^[^\(].*?\/(\w*)[\/|\s].*$/
+end
+
+cached_list.delete_if { |item| item.strip == '' || %w(selenium server_error).include?(item) }
+
+def full_path(file_name)
+  public_path = File.expand_path(File.dirname(__FILE__) + "/../public")
+  "#{public_path}/#{file_name}"
+end
+
+def full_file_path(file_name)
+  "#{full_path(file_name)}.html"
+end
+
+cached_list.compact.uniq.each do |file_name|
+
+  if File.directory?(full_path(file_name))
+    FileUtils.rm_rf(full_path(file_name)) 
+    p "Removed: #{full_path(file_name)}"
+  end
+
+  if File.exist?(full_file_path(file_name))
+    FileUtils.rm_rf(full_file_path(file_name))
+    p "Removed: #{full_file_path(file_name)}"
+  end
+
+end
+
+FileUtils.rm_rf(full_file_path('index'))
+p "Removed: #{full_file_path('index')}"
