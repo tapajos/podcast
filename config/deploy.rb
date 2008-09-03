@@ -8,12 +8,12 @@ set :deploy_to, "/home/#{user}/railsapp/#{application}"
 
 namespace :deploy do
   task :restart, :roles => :app do
-    send(:run, "cd #{deploy_to}/#{current_dir} && mongrel_rails stop && sleep 1s && rm -f log/mongrel.pid && mongrel_rails start -e production -p 12003 -d")
+    run "touch #{current_path}/tmp/restart.txt"
   end
 end
 
 task :after_update_code, :roles => :app do
-  # run "cp #{deploy_to}/shared/database.yml #{release_path}/config/database.yml"
+  run "cp #{deploy_to}/shared/database.yml #{release_path}/config/database.yml"
   run "cd #{release_path} && rake db:migrate RAILS_ENV=production"
   run "chmod 755 #{release_path}/public -R"
   run "rm -Rf #{release_path}/public/podcasts"
