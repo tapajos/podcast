@@ -1,7 +1,5 @@
 class PodcastsController < ApplicationController
   caches_page :index
-  cache_sweeper :podcast_sweeper  , :only => [:index]
-
 
   def method_missing(name, *args)
     @podcast = Podcast.find_by_permalink(name.to_s)

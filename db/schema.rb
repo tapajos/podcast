@@ -25,12 +25,6 @@ ActiveRecord::Schema.define(:version => 2) do
     t.datetime "updated_at"
   end
 
-  create_table "schema_migrations", :id => false, :force => true do |t|
-    t.string "version", :null => false
-  end
-
-  add_index "schema_migrations", ["version"], :name => "unique_schema_migrations", :unique => true
-
   create_table "users", :force => true do |t|
     t.string   "login",                     :limit => 40
     t.string   "name",                      :limit => 100, :default => ""
